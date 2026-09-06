@@ -1,0 +1,63 @@
+import os
+import sys
+
+# Ensure UTF-8 output
+sys.stdout.reconfigure(encoding='utf-8')
+
+post_text = """Most multi-channel commerce brands operate in analytical silos: B2C sales on Amazon are detached from B2B export ledgers, warehouse inventory, and cross-platform pricing matrices. The result is distorted unit economics, unmonitored stockout bleed, and fragmented reporting.
+
+To solve this, I designed and deployed HiLyst Unified Commerce DW: an enterprise data warehouse and decision intelligence architecture on Microsoft SQL Server, consolidating 178,205 raw records across 7 disparate datasets into an audited Kimball Star Schema and interactive executive BI dashboard.
+
+Key Data Engineering & Analytical Steps:
+
+1. Medallion Staging & Conformed Cleansing (Bronze to Silver)
+Ingested operational datasets (Amazon India sales, International Wholesale, warehouse stock, retail pricing, and expense ledgers) into bronze staging. The silver pipeline conformed inconsistent SKUs, harmonized pricing, standardized geographic nodes, and resolved fulfillment variations.
+
+2. Kimball Dimensional Star Schema (Gold Layer)
+Engineered an enterprise dimensional model comprising 165,366 line-item facts across 6 conformed dimensions (DimDate, DimProduct, DimCustomer, DimChannel, DimFulfillment, DimLocation) and 4 centralized fact tables (FactSalesOrderItems, FactInventorySnapshot, FactChannelPricing, FactOperationalExpenses) indexed for sub-second analytical queries.
+
+3. Automated Data Quality & Governance
+Built an automated T-SQL audit suite executing 10 validation checks across surrogate key referential integrity, SKU uniqueness, and null checks, achieving a 100% automated pass rate with persistent audit logs.
+
+4. Governed Semantic Views & Key Insights
+- Pareto Catalog Skew: 16.5% of SKUs (Class A) generate 80.0% of revenue (Rs 75.99 Cr), while 61.9% of SKUs contribute only 5.0%.
+- Fulfillment Churn: Merchant Fulfilled (MFN) orders suffer 2.2x higher cancellation & return churn (13.1%) vs Amazon FBA (5.9%).
+- Pricing Arbitrage: Identical SKUs command a Rs 350 MRP spread on Myntra/Ajio over discount platforms, providing immediate margin optimization.
+- Supply Chain Health: Identified 2,559 Out-of-Stock SKUs, triggering automated reorder thresholds to prevent ~Rs 1.85M/mo in lost margin.
+
+5. Interactive Executive BI Dashboard
+Developed a browser-native executive BI interface (Chart.js / Vanilla JS) with real-time KPI scorecards, spline area revenue timelines, channel margin donuts, platform rankings, and an autonomous AI insights stream.
+
+What Problem This Solves:
+HiLyst unifies fragmented multi-channel operations into a single trusted source of truth, delivering clear visibility over true net margins, SKU velocity, pricing arbitrage, and warehouse working capital allocation.
+
+Author: Himansh Upadhyay
+- Data Architect & BI Engineer
+- GitHub: https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW
+- LinkedIn: https://www.linkedin.com/in/himansh-upadhyay-a1b117343
+- Kaggle: https://www.kaggle.com/himanshupadhyay
+"""
+
+cleaned_text = post_text.strip()
+char_count = len(cleaned_text)
+print(f"Character Count: {char_count} / 3000 max (Valid: {char_count < 3000})")
+
+post_dir = r"c:\Users\pc\Documents\HiLyst\Shopify E-Commerce Sales Dataset\Linkedin Post"
+os.makedirs(post_dir, exist_ok=True)
+
+txt_path = os.path.join(post_dir, "linkedin_post.txt")
+with open(txt_path, "w", encoding="utf-8") as f:
+    f.write(cleaned_text)
+
+md_path = os.path.join(post_dir, "README.md")
+with open(md_path, "w", encoding="utf-8") as f:
+    f.write("# LinkedIn Post Assets and Copy\n\n")
+    f.write("## Post Content (Character Count: " + str(char_count) + " / 3000 max)\n\n")
+    f.write("```text\n")
+    f.write(cleaned_text)
+    f.write("\n```\n\n")
+    f.write("---\n\n")
+    f.write("## Attached Media Assets\n\n")
+    f.write("- `Dashboard Screenshots/dashboard_overview.png` - High-resolution executive dashboard visual.\n")
+
+print(f"Saved: {txt_path} and {md_path}")
