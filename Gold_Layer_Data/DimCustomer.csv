@@ -1,0 +1,162 @@
+CustomerKey,CustomerName,CustomerType,City,State,Country,SourceCustomerId,SourceSystem,CreatedDate
+1,Unknown Customer,General,UNKNOWN,UNKNOWN,IN,UNKNOWN,System,2026-09-06T03:33:58.152197
+2,Amazon Retail Consumer,B2C Retail,Multiple,Multiple,IN,AMAZON-RETAIL-CONSUMER,Amazon Marketplace,2026-09-06T03:33:58.256915
+3,NITHARSHA,B2B Wholesale,International,Export,International,B2B-NITHARSHA,International Sales,2026-09-06T03:33:58.347456
+4,VISHAL DARSHAN BOUTIQUE,B2B Wholesale,International,Export,International,B2B-VISHAL DARSHAN BOUTIQUE,International Sales,2026-09-06T03:33:58.347456
+5,ANU RANJANI ANPALAGAN,B2B Wholesale,International,Export,International,B2B-ANU RANJANI ANPALAGAN,International Sales,2026-09-06T03:33:58.347456
+6,MRS SUMITHA RAJU,B2B Wholesale,International,Export,International,B2B-MRS SUMITHA RAJU,International Sales,2026-09-06T03:33:58.347456
+7,SYEDA MORSHED,B2B Wholesale,International,Export,International,B2B-SYEDA MORSHED,International Sales,2026-09-06T03:33:58.347456
+8,MILLENIUS VENTURES,B2B Wholesale,International,Export,International,B2B-MILLENIUS VENTURES,International Sales,2026-09-06T03:33:58.347456
+9,JUN-21,B2B Wholesale,International,Export,International,B2B-JUN-21,International Sales,2026-09-06T03:33:58.347456
+10,PUNITHAVATHY KARUPIAH,B2B Wholesale,International,Export,International,B2B-PUNITHAVATHY KARUPIAH,International Sales,2026-09-06T03:33:58.347456
+11,LEKSHMI,B2B Wholesale,International,Export,International,B2B-LEKSHMI,International Sales,2026-09-06T03:33:58.347456
+12,NALINI,B2B Wholesale,International,Export,International,B2B-NALINI,International Sales,2026-09-06T03:33:58.347456
+13,AKASH KAUSHAL,B2B Wholesale,International,Export,International,B2B-AKASH KAUSHAL,International Sales,2026-09-06T03:33:58.347456
+14,MEERA RASADURAI,B2B Wholesale,International,Export,International,B2B-MEERA RASADURAI,International Sales,2026-09-06T03:33:58.347456
+15,FUSION FASHIONS CORP. (GOPIKAS),B2B Wholesale,International,Export,International,B2B-FUSION FASHIONS CORP. (GOPIKAS),International Sales,2026-09-06T03:33:58.347456
+16,VINI’S AUTHENTIC INDIAN ETHNIC WEAR,B2B Wholesale,International,Export,International,B2B-VINI’S AUTHENTIC INDIAN ETHNIC WEAR,International Sales,2026-09-06T03:33:58.347456
+17,AMBIKA SYAM SUNDAR,B2B Wholesale,International,Export,International,B2B-AMBIKA SYAM SUNDAR,International Sales,2026-09-06T03:33:58.347456
+18,MIZNA WAHEEDH,B2B Wholesale,International,Export,International,B2B-MIZNA WAHEEDH,International Sales,2026-09-06T03:33:58.347456
+19,MRS DEVIANEE BALLAH,B2B Wholesale,International,Export,International,B2B-MRS DEVIANEE BALLAH,International Sales,2026-09-06T03:33:58.347456
+20,MANJULIKA GUPTA,B2B Wholesale,International,Export,International,B2B-MANJULIKA GUPTA,International Sales,2026-09-06T03:33:58.347456
+21,AMANI CONCEPT TRADING LLC (KAPDA),B2B Wholesale,International,Export,International,B2B-AMANI CONCEPT TRADING LLC (KAPDA),International Sales,2026-09-06T03:33:58.347456
+22,THILAS BOMBAY BOUTIQUE SDN BHD,B2B Wholesale,International,Export,International,B2B-THILAS BOMBAY BOUTIQUE SDN BHD,International Sales,2026-09-06T03:33:58.347456
+23,VINTAGE INDIA NYC,B2B Wholesale,International,Export,International,B2B-VINTAGE INDIA NYC,International Sales,2026-09-06T03:33:58.347456
+24,RINO SANDARAN,B2B Wholesale,International,Export,International,B2B-RINO SANDARAN,International Sales,2026-09-06T03:33:58.347456
+25,JAN-22,B2B Wholesale,International,Export,International,B2B-JAN-22,International Sales,2026-09-06T03:33:58.347456
+26,SWATI REDDY,B2B Wholesale,International,Export,International,B2B-SWATI REDDY,International Sales,2026-09-06T03:33:58.347456
+27,TANUJ UPPAL,B2B Wholesale,International,Export,International,B2B-TANUJ UPPAL,International Sales,2026-09-06T03:33:58.347456
+28,TURGAH MUTHU KUMAR,B2B Wholesale,International,Export,International,B2B-TURGAH MUTHU KUMAR,International Sales,2026-09-06T03:33:58.347456
+29,AANCHOL,B2B Wholesale,International,Export,International,B2B-AANCHOL,International Sales,2026-09-06T03:33:58.347456
+30,MOHANA KARTHIK,B2B Wholesale,International,Export,International,B2B-MOHANA KARTHIK,International Sales,2026-09-06T03:33:58.347456
+31,THE PINK MARKET,B2B Wholesale,International,Export,International,B2B-THE PINK MARKET,International Sales,2026-09-06T03:33:58.347456
+32,YASHWINI REDDY,B2B Wholesale,International,Export,International,B2B-YASHWINI REDDY,International Sales,2026-09-06T03:33:58.347456
+33,DEVY,B2B Wholesale,International,Export,International,B2B-DEVY,International Sales,2026-09-06T03:33:58.347456
+34,SEP-21,B2B Wholesale,International,Export,International,B2B-SEP-21,International Sales,2026-09-06T03:33:58.347456
+35,MANGALAM SHOP,B2B Wholesale,International,Export,International,B2B-MANGALAM SHOP,International Sales,2026-09-06T03:33:58.347456
+36,DEEPARATI MUKHERJEE,B2B Wholesale,International,Export,International,B2B-DEEPARATI MUKHERJEE,International Sales,2026-09-06T03:33:58.347456
+37,HARSINIY KUMARESON,B2B Wholesale,International,Export,International,B2B-HARSINIY KUMARESON,International Sales,2026-09-06T03:33:58.347456
+38,NATHIYA REDDY,B2B Wholesale,International,Export,International,B2B-NATHIYA REDDY,International Sales,2026-09-06T03:33:58.347456
+39,RADHIKA SANTHOSH,B2B Wholesale,International,Export,International,B2B-RADHIKA SANTHOSH,International Sales,2026-09-06T03:33:58.347456
+40,VISHA DEVAN,B2B Wholesale,International,Export,International,B2B-VISHA DEVAN,International Sales,2026-09-06T03:33:58.347456
+41,K.PARTHIBAN,B2B Wholesale,International,Export,International,B2B-K.PARTHIBAN,International Sales,2026-09-06T03:33:58.347456
+42,DHENOOGA RAVINTHERAN,B2B Wholesale,International,Export,International,B2B-DHENOOGA RAVINTHERAN,International Sales,2026-09-06T03:33:58.347456
+43,NITHA PUSHPANGADAN SARALA,B2B Wholesale,International,Export,International,B2B-NITHA PUSHPANGADAN SARALA,International Sales,2026-09-06T03:33:58.347456
+44,SWATI(SINGAPORE),B2B Wholesale,International,Export,International,B2B-SWATI(SINGAPORE),International Sales,2026-09-06T03:33:58.347456
+45,MULBERRIES BOUTIQUE,B2B Wholesale,International,Export,International,B2B-MULBERRIES BOUTIQUE,International Sales,2026-09-06T03:33:58.347456
+46,YASSHLINY KUNJU,B2B Wholesale,International,Export,International,B2B-YASSHLINY KUNJU,International Sales,2026-09-06T03:33:58.347456
+47,OKASINA TRADING,B2B Wholesale,International,Export,International,B2B-OKASINA TRADING,International Sales,2026-09-06T03:33:58.347456
+48,NATHELIYA,B2B Wholesale,International,Export,International,B2B-NATHELIYA,International Sales,2026-09-06T03:33:58.347456
+49,IBRAHIM MAFTHOOH(JANASYA.IN),B2B Wholesale,International,Export,International,B2B-IBRAHIM MAFTHOOH(JANASYA.IN),International Sales,2026-09-06T03:33:58.347456
+50,ABBI COLLECTION,B2B Wholesale,International,Export,International,B2B-ABBI COLLECTION,International Sales,2026-09-06T03:33:58.347456
+51,MAAVI FASHION,B2B Wholesale,International,Export,International,B2B-MAAVI FASHION,International Sales,2026-09-06T03:33:58.347456
+52,MR.ALWAR MURALI,B2B Wholesale,International,Export,International,B2B-MR.ALWAR MURALI,International Sales,2026-09-06T03:33:58.347456
+53,PRIYANKA GUPTA,B2B Wholesale,International,Export,International,B2B-PRIYANKA GUPTA,International Sales,2026-09-06T03:33:58.347456
+54,DIVYA,B2B Wholesale,International,Export,International,B2B-DIVYA,International Sales,2026-09-06T03:33:58.347456
+55,KOGILA SELLAPPAN,B2B Wholesale,International,Export,International,B2B-KOGILA SELLAPPAN,International Sales,2026-09-06T03:33:58.347456
+56,SUGITHA SUGHUMARAN,B2B Wholesale,International,Export,International,B2B-SUGITHA SUGHUMARAN,International Sales,2026-09-06T03:33:58.347456
+57,YAMUNAH PUSPANATHAN,B2B Wholesale,International,Export,International,B2B-YAMUNAH PUSPANATHAN,International Sales,2026-09-06T03:33:58.347456
+58,RANDHIR CHAUDHARY,B2B Wholesale,International,Export,International,B2B-RANDHIR CHAUDHARY,International Sales,2026-09-06T03:33:58.347456
+59,FUSION FASHIONS CORP.,B2B Wholesale,International,Export,International,B2B-FUSION FASHIONS CORP.,International Sales,2026-09-06T03:33:58.347456
+60,MRS. THARANI SATHIYANATHAN,B2B Wholesale,International,Export,International,B2B-MRS. THARANI SATHIYANATHAN,International Sales,2026-09-06T03:33:58.347456
+61,G JANANI,B2B Wholesale,International,Export,International,B2B-G JANANI,International Sales,2026-09-06T03:33:58.347456
+62,THANA MARIMUTHU,B2B Wholesale,International,Export,International,B2B-THANA MARIMUTHU,International Sales,2026-09-06T03:33:58.347456
+63,KHIRTHIKA,B2B Wholesale,International,Export,International,B2B-KHIRTHIKA,International Sales,2026-09-06T03:33:58.347456
+64,REGA,B2B Wholesale,International,Export,International,B2B-REGA,International Sales,2026-09-06T03:33:58.347456
+65,R. VIKNESWARI,B2B Wholesale,International,Export,International,B2B-R. VIKNESWARI,International Sales,2026-09-06T03:33:58.347456
+66,BABITHA HUXLEY,B2B Wholesale,International,Export,International,B2B-BABITHA HUXLEY,International Sales,2026-09-06T03:33:58.347456
+67,SWEETY AKHTER,B2B Wholesale,International,Export,International,B2B-SWEETY AKHTER,International Sales,2026-09-06T03:33:58.347456
+68,ANJU BHARATI,B2B Wholesale,International,Export,International,B2B-ANJU BHARATI,International Sales,2026-09-06T03:33:58.347456
+69,RAJ.,B2B Wholesale,International,Export,International,B2B-RAJ.,International Sales,2026-09-06T03:33:58.347456
+70,KAZI NURAN HAQUE,B2B Wholesale,International,Export,International,B2B-KAZI NURAN HAQUE,International Sales,2026-09-06T03:33:58.347456
+71,JEANNIE THEIN WIN,B2B Wholesale,International,Export,International,B2B-JEANNIE THEIN WIN,International Sales,2026-09-06T03:33:58.347456
+72,TANUSREE MAJUMDER,B2B Wholesale,International,Export,International,B2B-TANUSREE MAJUMDER,International Sales,2026-09-06T03:33:58.347456
+73,THANA NAGISSWARY L MARIMUTHU,B2B Wholesale,International,Export,International,B2B-THANA NAGISSWARY L MARIMUTHU,International Sales,2026-09-06T03:33:58.347456
+74,SIRI PADALA,B2B Wholesale,International,Export,International,B2B-SIRI PADALA,International Sales,2026-09-06T03:33:58.347456
+75,OCT-21,B2B Wholesale,International,Export,International,B2B-OCT-21,International Sales,2026-09-06T03:33:58.347456
+76,REVATHY LOGANATHAN,B2B Wholesale,International,Export,International,B2B-REVATHY LOGANATHAN,International Sales,2026-09-06T03:33:58.347456
+77,MONISYAA,B2B Wholesale,International,Export,International,B2B-MONISYAA,International Sales,2026-09-06T03:33:58.347456
+78,BHAVANANTHINI,B2B Wholesale,International,Export,International,B2B-BHAVANANTHINI,International Sales,2026-09-06T03:33:58.347456
+79,RISHIKESH DASHPUTRE,B2B Wholesale,International,Export,International,B2B-RISHIKESH DASHPUTRE,International Sales,2026-09-06T03:33:58.347456
+80,SINDHU,B2B Wholesale,International,Export,International,B2B-SINDHU,International Sales,2026-09-06T03:33:58.347456
+81,VALLI ARANGAN FASHION,B2B Wholesale,International,Export,International,B2B-VALLI ARANGAN FASHION,International Sales,2026-09-06T03:33:58.347456
+82,LAZY DAISY CO LTD,B2B Wholesale,International,Export,International,B2B-LAZY DAISY CO LTD,International Sales,2026-09-06T03:33:58.347456
+83,BISSY SKARIA,B2B Wholesale,International,Export,International,B2B-BISSY SKARIA,International Sales,2026-09-06T03:33:58.347456
+84,SUSHAMA BORHADE,B2B Wholesale,International,Export,International,B2B-SUSHAMA BORHADE,International Sales,2026-09-06T03:33:58.347456
+85,PUVANES GANNASIN,B2B Wholesale,International,Export,International,B2B-PUVANES GANNASIN,International Sales,2026-09-06T03:33:58.347456
+86,RANJANA DEV DEVRAJ,B2B Wholesale,International,Export,International,B2B-RANJANA DEV DEVRAJ,International Sales,2026-09-06T03:33:58.347456
+87,ARANGAN FASHIONS,B2B Wholesale,International,Export,International,B2B-ARANGAN FASHIONS,International Sales,2026-09-06T03:33:58.347456
+88,HARSINIY KUMAR,B2B Wholesale,International,Export,International,B2B-HARSINIY KUMAR,International Sales,2026-09-06T03:33:58.347456
+89,M/S CHARISMAKURTIES(DUBAI),B2B Wholesale,International,Export,International,B2B-M/S CHARISMAKURTIES(DUBAI),International Sales,2026-09-06T03:33:58.347456
+90,JEVI,B2B Wholesale,International,Export,International,B2B-JEVI,International Sales,2026-09-06T03:33:58.347456
+91,ARKH FASHION BOUTIQUE PTY LTD,B2B Wholesale,International,Export,International,B2B-ARKH FASHION BOUTIQUE PTY LTD,International Sales,2026-09-06T03:33:58.347456
+92,MRS. SUMITHA RAJU,B2B Wholesale,International,Export,International,B2B-MRS. SUMITHA RAJU,International Sales,2026-09-06T03:33:58.347456
+93,MR. GOPALDAS,B2B Wholesale,International,Export,International,B2B-MR. GOPALDAS,International Sales,2026-09-06T03:33:58.347456
+94,JUL-21,B2B Wholesale,International,Export,International,B2B-JUL-21,International Sales,2026-09-06T03:33:58.347456
+95,THARSIKA EUGIN,B2B Wholesale,International,Export,International,B2B-THARSIKA EUGIN,International Sales,2026-09-06T03:33:58.347456
+96,ARKH FASHION,B2B Wholesale,International,Export,International,B2B-ARKH FASHION,International Sales,2026-09-06T03:33:58.347456
+97,RINA THAKURTA,B2B Wholesale,International,Export,International,B2B-RINA THAKURTA,International Sales,2026-09-06T03:33:58.347456
+98,BANUJA RASAKODY,B2B Wholesale,International,Export,International,B2B-BANUJA RASAKODY,International Sales,2026-09-06T03:33:58.347456
+99,COTTON CLOSET LTD,B2B Wholesale,International,Export,International,B2B-COTTON CLOSET LTD,International Sales,2026-09-06T03:33:58.347456
+100,SUUMAYA CLOTHING,B2B Wholesale,International,Export,International,B2B-SUUMAYA CLOTHING,International Sales,2026-09-06T03:33:58.347456
+101,SHILPI KUMARI,B2B Wholesale,International,Export,International,B2B-SHILPI KUMARI,International Sales,2026-09-06T03:33:58.347456
+102,NIRUSAH TAILORING,B2B Wholesale,International,Export,International,B2B-NIRUSAH TAILORING,International Sales,2026-09-06T03:33:58.347456
+103,NAYANA SAWLANI,B2B Wholesale,International,Export,International,B2B-NAYANA SAWLANI,International Sales,2026-09-06T03:33:58.347456
+104,VIKNES THREADS COLLECTION,B2B Wholesale,International,Export,International,B2B-VIKNES THREADS COLLECTION,International Sales,2026-09-06T03:33:58.347456
+105,RAKSHANDA MAHAJAN,B2B Wholesale,International,Export,International,B2B-RAKSHANDA MAHAJAN,International Sales,2026-09-06T03:33:58.347456
+106,NOV-21,B2B Wholesale,International,Export,International,B2B-NOV-21,International Sales,2026-09-06T03:33:58.347456
+107,REMMIA MATHEWS,B2B Wholesale,International,Export,International,B2B-REMMIA MATHEWS,International Sales,2026-09-06T03:33:58.347456
+108,GAJANAN,B2B Wholesale,International,Export,International,B2B-GAJANAN,International Sales,2026-09-06T03:33:58.347456
+109,CHAAYA SOOKDEB,B2B Wholesale,International,Export,International,B2B-CHAAYA SOOKDEB,International Sales,2026-09-06T03:33:58.347456
+110,VINODHA,B2B Wholesale,International,Export,International,B2B-VINODHA,International Sales,2026-09-06T03:33:58.347456
+111,VAHARSHA BOUTIQUE,B2B Wholesale,International,Export,International,B2B-VAHARSHA BOUTIQUE,International Sales,2026-09-06T03:33:58.347456
+112,MANISH DHOORUNDHUR,B2B Wholesale,International,Export,International,B2B-MANISH DHOORUNDHUR,International Sales,2026-09-06T03:33:58.347456
+113,RIVAAN LLC,B2B Wholesale,International,Export,International,B2B-RIVAAN LLC,International Sales,2026-09-06T03:33:58.347456
+114,SHWETA,B2B Wholesale,International,Export,International,B2B-SHWETA,International Sales,2026-09-06T03:33:58.347456
+115,KASTHURI RAMASAMY,B2B Wholesale,International,Export,International,B2B-KASTHURI RAMASAMY,International Sales,2026-09-06T03:33:58.347456
+116,AJS INDIAN BOUTIQUE,B2B Wholesale,International,Export,International,B2B-AJS INDIAN BOUTIQUE,International Sales,2026-09-06T03:33:58.347456
+117,MAR-22,B2B Wholesale,International,Export,International,B2B-MAR-22,International Sales,2026-09-06T03:33:58.347456
+118,VAHLAARMATHY,B2B Wholesale,International,Export,International,B2B-VAHLAARMATHY,International Sales,2026-09-06T03:33:58.347456
+119,AMANDEEP KAUR,B2B Wholesale,International,Export,International,B2B-AMANDEEP KAUR,International Sales,2026-09-06T03:33:58.347456
+120,MONIYSHAA,B2B Wholesale,International,Export,International,B2B-MONIYSHAA,International Sales,2026-09-06T03:33:58.347456
+121,MURUGESAN CHANDRA,B2B Wholesale,International,Export,International,B2B-MURUGESAN CHANDRA,International Sales,2026-09-06T03:33:58.347456
+122,RIA FASHION,B2B Wholesale,International,Export,International,B2B-RIA FASHION,International Sales,2026-09-06T03:33:58.347456
+123,FARIA ESSOPP,B2B Wholesale,International,Export,International,B2B-FARIA ESSOPP,International Sales,2026-09-06T03:33:58.347456
+124,ARUNA DEVI,B2B Wholesale,International,Export,International,B2B-ARUNA DEVI,International Sales,2026-09-06T03:33:58.347456
+125,KAMALA RENGASAMY,B2B Wholesale,International,Export,International,B2B-KAMALA RENGASAMY,International Sales,2026-09-06T03:33:58.347456
+126,ALAMELOO(MALA),B2B Wholesale,International,Export,International,B2B-ALAMELOO(MALA),International Sales,2026-09-06T03:33:58.347456
+127,KIRUTHIKA V SURESHBABU,B2B Wholesale,International,Export,International,B2B-KIRUTHIKA V SURESHBABU,International Sales,2026-09-06T03:33:58.347456
+128,ENTHULEGA,B2B Wholesale,International,Export,International,B2B-ENTHULEGA,International Sales,2026-09-06T03:33:58.347456
+129,TASSELS LTD,B2B Wholesale,International,Export,International,B2B-TASSELS LTD,International Sales,2026-09-06T03:33:58.347456
+130,ETHNIC WEAVES FASHION LLC,B2B Wholesale,International,Export,International,B2B-ETHNIC WEAVES FASHION LLC,International Sales,2026-09-06T03:33:58.347456
+131,SURE FASHIONS LLC,B2B Wholesale,International,Export,International,B2B-SURE FASHIONS LLC,International Sales,2026-09-06T03:33:58.347456
+132,KHANJANA MOJEE,B2B Wholesale,International,Export,International,B2B-KHANJANA MOJEE,International Sales,2026-09-06T03:33:58.347456
+133,KAVEENAZ COLLECTION,B2B Wholesale,International,Export,International,B2B-KAVEENAZ COLLECTION,International Sales,2026-09-06T03:33:58.347456
+134,MR.JEYARAJ,B2B Wholesale,International,Export,International,B2B-MR.JEYARAJ,International Sales,2026-09-06T03:33:58.347456
+135,DIYA DESIGNS,B2B Wholesale,International,Export,International,B2B-DIYA DESIGNS,International Sales,2026-09-06T03:33:58.347456
+136,GALAXY GROUP OF COMPANIES PVT. LTD,B2B Wholesale,International,Export,International,B2B-GALAXY GROUP OF COMPANIES PVT. LTD,International Sales,2026-09-06T03:33:58.347456
+137,RAVINDER VAID,B2B Wholesale,International,Export,International,B2B-RAVINDER VAID,International Sales,2026-09-06T03:33:58.347456
+138,RAZIA ROSEANE NASER,B2B Wholesale,International,Export,International,B2B-RAZIA ROSEANE NASER,International Sales,2026-09-06T03:33:58.347456
+139,BINCY SKARIA,B2B Wholesale,International,Export,International,B2B-BINCY SKARIA,International Sales,2026-09-06T03:33:58.347456
+140,GEETHA RAJA GOPAL,B2B Wholesale,International,Export,International,B2B-GEETHA RAJA GOPAL,International Sales,2026-09-06T03:33:58.347456
+141,MANGAI PRABHAKAR,B2B Wholesale,International,Export,International,B2B-MANGAI PRABHAKAR,International Sales,2026-09-06T03:33:58.347456
+142,THEVI MURUGAIAH,B2B Wholesale,International,Export,International,B2B-THEVI MURUGAIAH,International Sales,2026-09-06T03:33:58.347456
+143,MALLAR MAHALINGAM,B2B Wholesale,International,Export,International,B2B-MALLAR MAHALINGAM,International Sales,2026-09-06T03:33:58.347456
+144,DEC-21,B2B Wholesale,International,Export,International,B2B-DEC-21,International Sales,2026-09-06T03:33:58.347456
+145,DANESHWARY RAMAR,B2B Wholesale,International,Export,International,B2B-DANESHWARY RAMAR,International Sales,2026-09-06T03:33:58.347456
+146,REKA RASAKODY,B2B Wholesale,International,Export,International,B2B-REKA RASAKODY,International Sales,2026-09-06T03:33:58.347456
+147,DISHANU FASHION WORLD,B2B Wholesale,International,Export,International,B2B-DISHANU FASHION WORLD,International Sales,2026-09-06T03:33:58.347456
+148,VINODHA PUSPANATHAN,B2B Wholesale,International,Export,International,B2B-VINODHA PUSPANATHAN,International Sales,2026-09-06T03:33:58.347456
+149,VENDAN,B2B Wholesale,International,Export,International,B2B-VENDAN,International Sales,2026-09-06T03:33:58.347456
+150,MR ALWAR MURALI,B2B Wholesale,International,Export,International,B2B-MR ALWAR MURALI,International Sales,2026-09-06T03:33:58.347456
+151,SANCHITA KARKI,B2B Wholesale,International,Export,International,B2B-SANCHITA KARKI,International Sales,2026-09-06T03:33:58.347456
+152,ABDUL RAHMAN(SINGAPORE),B2B Wholesale,International,Export,International,B2B-ABDUL RAHMAN(SINGAPORE),International Sales,2026-09-06T03:33:58.347456
+153,BHANU SALEINE NAUNITHAM,B2B Wholesale,International,Export,International,B2B-BHANU SALEINE NAUNITHAM,International Sales,2026-09-06T03:33:58.347456
+154,KALAIVANI PERMALU,B2B Wholesale,International,Export,International,B2B-KALAIVANI PERMALU,International Sales,2026-09-06T03:33:58.347456
+155,AVIN,B2B Wholesale,International,Export,International,B2B-AVIN,International Sales,2026-09-06T03:33:58.347456
+156,ADDVEN SOLUTIONS PRIVATE LIMITED,B2B Wholesale,International,Export,International,B2B-ADDVEN SOLUTIONS PRIVATE LIMITED,International Sales,2026-09-06T03:33:58.347456
+157,SIVA,B2B Wholesale,International,Export,International,B2B-SIVA,International Sales,2026-09-06T03:33:58.347456
+158,MANGROWTEE SOOKDEB,B2B Wholesale,International,Export,International,B2B-MANGROWTEE SOOKDEB,International Sales,2026-09-06T03:33:58.347456
+159,AUG-21,B2B Wholesale,International,Export,International,B2B-AUG-21,International Sales,2026-09-06T03:33:58.347456
+160,FEB-22,B2B Wholesale,International,Export,International,B2B-FEB-22,International Sales,2026-09-06T03:33:58.347456
+161,KHUSBOO BEEHARRY,B2B Wholesale,International,Export,International,B2B-KHUSBOO BEEHARRY,International Sales,2026-09-06T03:33:58.347456

@@ -1,0 +1,14 @@
+ExpenseKey,DateKey,ExpenseCategory,ExpenseDescription,Amount,SourceSystem,ETL_LoadedAt
+1,20220620,Exhibition Supplies,Large Bag,380.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+2,20220620,Exhibition Supplies,"Stationary(Soft Pin, Paper pin for Dupatta, Fevikwick)",170.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+3,20220620,Transportation,OLA,839.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+4,20220620,Transportation,Auto Rent,520.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+5,20220620,General Expense,TT Fine,500.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+6,20220620,Travel & Lodging,Bhushan Hotel,2506.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+7,20220620,Travel & Lodging,Food,1290.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+8,20220620,Exhibition Operations,Expomart Labour Charge,200.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+9,20220620,General Expense,Choclate,400.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+10,20220620,General Expense,Bhushan Cash,800.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+11,20220620,Travel & Lodging,Delhi Hotel Rest Room,120.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+12,20220620,General Expense,Water Bottel,70.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
+13,20220620,Transportation,Cooli,300.00,IIGF Event Petty Cash,2026-09-06T03:34:41.834382
