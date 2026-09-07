@@ -7,11 +7,11 @@
 The **HiLyst Unified Commerce Platform** transitions enterprise analytics from passive descriptive reporting to active, prescriptive **Decision Intelligence**. Rather than overwhelming decision-makers with static dashboards and disaggregated data tables, the **HiLyst AI Insight Engine** synthesizes multi-source transactional, marketing, inventory, and financial data into **actionable, risk-bounded, and confidence-scored decision cards**.
 
 ```
-┌──────────────────────────┐      ┌──────────────────────────┐      ┌──────────────────────────┐      ┌──────────────────────────┐
-│       DESCRIPTIVE        │      │        DIAGNOSTIC        │      │        PREDICTIVE        │      │       PRESCRIPTIVE       │
-│  "What happened across   │ ───► │   "Why did gross margin  │ ───► │  "When will SKU stocks   │ ───► │  "Reallocate ₹50k from   │
-│   the 13 sales channels?"│      │   spread widen on FBA?"  │      │   deplete to zero?"      │      │   Google Ads to Meta"    │
-└──────────────────────────┘      └──────────────────────────┘      └──────────────────────────┘      └──────────────────────────┘
+┌──────────────────────────┐ ┌──────────────────────────┐ ┌──────────────────────────┐ ┌──────────────────────────┐
+│ DESCRIPTIVE │ │ DIAGNOSTIC │ │ PREDICTIVE │ │ PRESCRIPTIVE │
+│ "What happened across │ ───> │ "Why did gross margin │ ───> │ "When will SKU stocks │ ───> │ "Reallocate ₹50k from │
+│ the 13 sales channels?"│ │ spread widen on FBA?" │ │ deplete to zero?" │ │ Google Ads to Meta" │
+└──────────────────────────┘ └──────────────────────────┘ └──────────────────────────┘ └──────────────────────────┘
 ```
 
 ---
@@ -22,39 +22,39 @@ The AI Insight Engine is powered by a 4-tier decision pipeline operating directl
 
 ```
 +-----------------------------------------------------------------------------------+
-|                        HILYST DECISION ENGINE ARCHITECTURE                        |
+| HILYST DECISION ENGINE ARCHITECTURE |
 +-----------------------------------------------------------------------------------+
-| 1. TELEMETRY INGESTION                                                           |
-|    - gold.FactSalesOrderItems         (228k+ Transactions, Margin, Channel)       |
-|    - gold.FactMarketingPerformance    (2,916 Campaign Ad Days, ROAS, Leads)       |
-|    - gold.FactInventorySnapshot       (6,618 Stock Records, Depletion Velocity)   |
-|    - gold.FactChannelPricing          (9,057 Pricing Spreads across 7 Portals)    |
+| 1. TELEMETRY INGESTION |
+| - gold.FactSalesOrderItems (228k+ Transactions, Margin, Channel) |
+| - gold.FactMarketingPerformance (2,916 Campaign Ad Days, ROAS, Leads) |
+| - gold.FactInventorySnapshot (6,618 Stock Records, Depletion Velocity) |
+| - gold.FactChannelPricing (9,057 Pricing Spreads across 7 Portals) |
 +-----------------------------------------------------------------------------------+
-                                         │
-                                         ▼
+ │
+ v
 +-----------------------------------------------------------------------------------+
-| 2. HEURISTIC & STATISTICAL RULE ENGINES                                           |
-|    - Arbitrage Spread Detection Engine (Delta MRP > 15%, Transfer Price Floor)    |
-|    - Stockout Risk & Reorder Predictor (Depletion Run-rate, Lead Time Buffering)  |
-|    - Marketing Marginal ROAS Optimizer (ROAS Delta, Lead Quality Tiering)         |
-|    - B2B vs B2C Channel Mix Balancer (Gross Margin % vs Cash Flow Days)          |
+| 2. HEURISTIC & STATISTICAL RULE ENGINES |
+| - Arbitrage Spread Detection Engine (Delta MRP > 15%, Transfer Price Floor) |
+| - Stockout Risk & Reorder Predictor (Depletion Run-rate, Lead Time Buffering) |
+| - Marketing Marginal ROAS Optimizer (ROAS Delta, Lead Quality Tiering) |
+| - B2B vs B2C Channel Mix Balancer (Gross Margin % vs Cash Flow Days) |
 +-----------------------------------------------------------------------------------+
-                                         │
-                                         ▼
+ │
+ v
 +-----------------------------------------------------------------------------------+
-| 3. CONFIDENCE SCORING & GOVERNANCE GUARDRAILS                                     |
-|    - Statistical Sample Size Verification (n >= 30 transactions)                 |
-|    - Maximum Price Shift Threshold (+/- 15% bounds)                              |
-|    - Minimum Margin Floor Safeguard (Gross Margin >= 20.0%)                       |
-|    - Human-in-the-Loop (HITL) Execution Confirmation                             |
+| 3. CONFIDENCE SCORING & GOVERNANCE GUARDRAILS |
+| - Statistical Sample Size Verification (n >= 30 transactions) |
+| - Maximum Price Shift Threshold (+/- 15% bounds) |
+| - Minimum Margin Floor Safeguard (Gross Margin >= 20.0%) |
+| - Human-in-the-Loop (HITL) Execution Confirmation |
 +-----------------------------------------------------------------------------------+
-                                         │
-                                         ▼
+ │
+ v
 +-----------------------------------------------------------------------------------+
-| 4. PRESCRIPTIVE DECISION CARDS & SIMULATION SANDBOX                               |
-|    - Interactive "What-If" Scenario Simulator                                     |
-|    - Instant Impact Projection (Delta Revenue, Delta Margin, Delta Working Capital)|
-|    - 1-Click Action Dispatch / ERP Trigger Payload                                |
+| 4. PRESCRIPTIVE DECISION CARDS & SIMULATION SANDBOX |
+| - Interactive "What-If" Scenario Simulator |
+| - Instant Impact Projection (Delta Revenue, Delta Margin, Delta Working Capital)|
+| - 1-Click Action Dispatch / ERP Trigger Payload |
 +-----------------------------------------------------------------------------------+
 ```
 
@@ -67,13 +67,13 @@ The AI Insight Engine is powered by a 4-tier decision pipeline operating directl
 * **Problem Statement:** Identical SKUs are sold across Amazon India, Flipkart, Myntra, Ajio, Limeroad, and Paytm with uncoordinated pricing, causing brand value erosion, unauthorized marketplace arbitrage, and sub-optimal unit realization.
 * **Underlying Semantic View:** `analytics.v_ChannelPricingArbitrage`
 * **Mathematical Logic:**
-  $$\text{PriceSpread}_{\text{SKU}} = \max(\text{MRP}_c) - \min(\text{MRP}_c) \quad \forall c \in \text{ActiveChannels}$$
-  $$\text{SpreadPct}_{\text{SKU}} = \frac{\text{PriceSpread}_{\text{SKU}}}{\text{TransferPrice}_{\text{SKU}}} \times 100$$
+ $$\text{PriceSpread}_{\text{SKU}} = \max(\text{MRP}_c) - \min(\text{MRP}_c) \quad \forall c \in \text{ActiveChannels}$$
+ $$\text{SpreadPct}_{\text{SKU}} = \frac{\text{PriceSpread}_{\text{SKU}}}{\text{TransferPrice}_{\text{SKU}}} \times 100$$
 * **Decision Thresholds:**
-  * **Alert Trigger:** $\text{SpreadPct} > 25.0\%$ AND $\text{Volume} \ge 20\text{ units/month}$.
-  * **Prescription:** Align portal pricing to $\text{AvgChannelMRP} \pm 5\%$ or reallocate inventory allocation from low-realization to high-realization channels.
+ * **Alert Trigger:** $\text{SpreadPct} > 25.0\%$ AND $\text{Volume} \ge 20\text{ units/month}$.
+ * **Prescription:** Align portal pricing to $\text{AvgChannelMRP} \pm 5\%$ or reallocate inventory allocation from low-realization to high-realization channels.
 * **Confidence Scoring Model:**
-  $$\text{Confidence} = 0.40 \cdot \min\left(1, \frac{N_{\text{channels}}}{5}\right) + 0.35 \cdot \min\left(1, \frac{\text{Volume}}{50}\right) + 0.25 \cdot (1 - \text{PriceVariance})$$
+ $$\text{Confidence} = 0.40 \cdot \min\left(1, \frac{N_{\text{channels}}}{5}\right) + 0.35 \cdot \min\left(1, \frac{\text{Volume}}{50}\right) + 0.25 \cdot (1 - \text{PriceVariance})$$
 
 ---
 
@@ -82,12 +82,12 @@ The AI Insight Engine is powered by a 4-tier decision pipeline operating directl
 * **Problem Statement:** High-velocity apparel and consumer goods risk sudden stockouts during peak promotional windows, while slow-moving styles tie up expensive working capital.
 * **Underlying Semantic View:** `analytics.v_InventoryHealthAndValuation`
 * **Mathematical Logic:**
-  $$\text{DailyVelocity}_{\text{SKU}} = \frac{\sum_{t \in [T-30, T]} \text{QuantitySold}_t}{30}$$
-  $$\text{DaysOfInventory}_{\text{SKU}} = \frac{\text{StockOnHand}_{\text{SKU}}}{\max(0.1, \text{DailyVelocity}_{\text{SKU}})}$$
-  $$\text{ReorderPoint}_{\text{SKU}} = (\text{LeadTime}_{\text{days}} \times \text{DailyVelocity}) + Z \cdot \sigma_{\text{Demand}} \cdot \sqrt{\text{LeadTime}_{\text{days}}}$$
+ $$\text{DailyVelocity}_{\text{SKU}} = \frac{\sum_{t \in [T-30, T]} \text{QuantitySold}_t}{30}$$
+ $$\text{DaysOfInventory}_{\text{SKU}} = \frac{\text{StockOnHand}_{\text{SKU}}}{\max(0.1, \text{DailyVelocity}_{\text{SKU}})}$$
+ $$\text{ReorderPoint}_{\text{SKU}} = (\text{LeadTime}_{\text{days}} \times \text{DailyVelocity}) + Z \cdot \sigma_{\text{Demand}} \cdot \sqrt{\text{LeadTime}_{\text{days}}}$$
 * **Decision Thresholds:**
-  * **Critical Stockout Risk:** $\text{DaysOfInventory} < 7\text{ days}$ $\rightarrow$ Immediate Reorder PO trigger.
-  * **Dead Stock Capital Trap:** $\text{DaysOfInventory} > 120\text{ days}$ AND $\text{StockOnHand} > 50$ $\rightarrow$ Trigger 15% clearance promotional campaign or flash liquidation.
+ * **Critical Stockout Risk:** $\text{DaysOfInventory} < 7\text{ days}$ $\rightarrow$ Immediate Reorder PO trigger.
+ * **Dead Stock Capital Trap:** $\text{DaysOfInventory} > 120\text{ days}$ AND $\text{StockOnHand} > 50$ $\rightarrow$ Trigger 15% clearance promotional campaign or flash liquidation.
 * **Projected Impact:** Unlocks **₹1,20,000+** in trapped working capital while reducing lost sales stockouts by **92%**.
 
 ---
@@ -97,11 +97,11 @@ The AI Insight Engine is powered by a 4-tier decision pipeline operating directl
 * **Problem Statement:** Marketing budgets are statically split between Google Ads (Paid Search) and Meta Ads (Direct Response & Lead Gen), ignoring real-time marginal returns on ad spend ($mROAS$).
 * **Underlying Semantic View:** `analytics.v_MarketingROASAndAttribution` & `analytics.v_LeadScoringQuality`
 * **Mathematical Logic:**
-  $$\text{ROAS}_{\text{channel}} = \frac{\text{AttributedRevenue}_{\text{channel}}}{\text{AdSpend}_{\text{channel}}}$$
-  $$\text{MarginalROAS} = \frac{\Delta \text{Revenue}}{\Delta \text{Spend}}$$
+ $$\text{ROAS}_{\text{channel}} = \frac{\text{AttributedRevenue}_{\text{channel}}}{\text{AdSpend}_{\text{channel}}}$$
+ $$\text{MarginalROAS} = \frac{\Delta \text{Revenue}}{\Delta \text{Spend}}$$
 * **Empirical Observations:**
-  * **Meta Ads ROAS:** **7.80x** average with high-converting Tier-1 lead generation ($\text{AOV} = \text{₹1,450}$).
-  * **Google Ads ROAS:** **1.24x - 2.10x** across desktop and mobile keywords, with elevated CAC on generic apparel terms.
+ * **Meta Ads ROAS:** **7.80x** average with high-converting Tier-1 lead generation ($\text{AOV} = \text{₹1,450}$).
+ * **Google Ads ROAS:** **1.24x - 2.10x** across desktop and mobile keywords, with elevated CAC on generic apparel terms.
 * **Prescription:** Reallocate **₹50,000** monthly ad budget from generic Google Ads search ad sets to top-performing Meta Lead Gen campaigns targeting Tier-1 affluent demographic clusters.
 * **Projected Impact:** $+₹2,80,000$ in attributed incremental revenue with a $+3.4\times$ improvement in blended marketing efficiency.
 
@@ -112,7 +112,7 @@ The AI Insight Engine is powered by a 4-tier decision pipeline operating directl
 * **Problem Statement:** Balancing high-margin, high-CAC B2C marketplace sales (Amazon/Flipkart) with low-margin, high-volume, instant-cash B2B wholesale agreements.
 * **Underlying Semantic View:** `analytics.v_ChannelPerformanceSummary` & `analytics.v_ProfitAndLossBridge`
 * **Mathematical Logic:**
-  $$\text{NetMarginContribution}_{\text{Channel}} = \text{GrossRevenue} - \text{COGS} - \text{CommissionFees} - \text{MarketingCAC} - \text{LogisticsCost}$$
+ $$\text{NetMarginContribution}_{\text{Channel}} = \text{GrossRevenue} - \text{COGS} - \text{CommissionFees} - \text{MarketingCAC} - \text{LogisticsCost}$$
 * **Prescription:** Maintain minimum 25% allocation to B2B Wholesale during Q2/Q3 to secure upfront liquidity for festive inventory procurement, switching to 80% B2C allocation during Q4 peak festive shopping windows (Diwali/Great Indian Festival).
 
 ---
@@ -135,15 +135,15 @@ The dashboard includes a real-time **Scenario Modeling Sandbox** allowing operat
 
 ```
 [ SIMULATION SANDBOX CONTROLS ]
-Ad Spend Reallocation Slider:     [----●-----] ₹50,000 to Meta Ads
-Listing Price Adjustment:         [------●---] +5% on Amazon FBA
-Dead Stock Clearance Discount:    [---●------] 15% Bundle Discount
+Ad Spend Reallocation Slider: [----*-----] ₹50,000 to Meta Ads
+Listing Price Adjustment: [------*---] +5% on Amazon FBA
+Dead Stock Clearance Discount: [---*------] 15% Bundle Discount
 
 [ REAL-TIME PREDICTED OUTCOMES ]
-• Incremental Net Revenue:         +₹4,84,000  (▲ 14.2%)
-• Blended Gross Margin:            38.4%       (▲ 2.1%)
-• Working Capital Released:        ₹1,20,000   (90-day cycle)
-• Projected Marketing ROAS:        6.12x       (▲ 1.8x)
+- Incremental Net Revenue: +₹4,84,000 (^ 14.2%)
+- Blended Gross Margin: 38.4% (^ 2.1%)
+- Working Capital Released: ₹1,20,000 (90-day cycle)
+- Projected Marketing ROAS: 6.12x (^ 1.8x)
 ```
 
 ---

@@ -14,23 +14,23 @@ The platform autonomously integrates **13 multi-source datasets** (559,000+ raw 
 ========================================================================================================
  HILYST ENTERPRISE DATA WAREHOUSE & DECISION PLATFORM — MASTER SCORECARD
 ========================================================================================================
- • Gross Merchandise Value (GMV):       ₹21,28,38,687.41 (₹21.28 Crore)
- • Total Net Operating Revenue:         ₹20,29,49,728.72 (₹20.29 Crore)
- • Total Sales Order Fact Rows:         515,187 Order Line Items
- • Valid Order Transactions:            382,648 Orders (402,861 Total Orders)
- • Total Units Sold Across Channels:    782,173 Units
- • Total Conformed Catalog Master:      40,802 SKUs (Amazon India, Amazon Global, Flipkart)
- • Total Conformed Customer Master:     170,679 Profiles (170,180 Active Transacting Customers)
- • B2B Wholesale Client Accounts:       161 International Importers & Distributors
- • Global B2C Retail Customers:         43,233 Verified Consumer Accounts
- • Average Order Value (AOV):           ₹530.38
- • Total Estimated Gross Profit:        ₹8,67,72,466.75 (₹8.68 Crore)
- • Blended Gross Margin:                40.77%
- • Total Digital Marketing Spend:       ₹5,41,191.68
- • Total Attributed Marketing Revenue:  ₹37,49,073.00
- • Blended Marketing ROAS:              6.93x (Meta Ads @ 21.60x ROAS vs. Google Ads @ 6.85x)
- • Automated Data Quality Score:        18 / 18 Tests Passed (100.0% Pass Rate, 0 Critical Defects)
- • HiLyst Platform Compatibility:       88.5% (Elevated from baseline prototype of 60.0%)
+ - Gross Merchandise Value (GMV): ₹21,28,38,687.41 (₹21.28 Crore)
+ - Total Net Operating Revenue: ₹20,29,49,728.72 (₹20.29 Crore)
+ - Total Sales Order Fact Rows: 515,187 Order Line Items
+ - Valid Order Transactions: 382,648 Orders (402,861 Total Orders)
+ - Total Units Sold Across Channels: 782,173 Units
+ - Total Conformed Catalog Master: 40,802 SKUs (Amazon India, Amazon Global, Flipkart)
+ - Total Conformed Customer Master: 170,679 Profiles (170,180 Active Transacting Customers)
+ - B2B Wholesale Client Accounts: 161 International Importers & Distributors
+ - Global B2C Retail Customers: 43,233 Verified Consumer Accounts
+ - Average Order Value (AOV): ₹530.38
+ - Total Estimated Gross Profit: ₹8,67,72,466.75 (₹8.68 Crore)
+ - Blended Gross Margin: 40.77%
+ - Total Digital Marketing Spend: ₹5,41,191.68
+ - Total Attributed Marketing Revenue: ₹37,49,073.00
+ - Blended Marketing ROAS: 6.93x (Meta Ads @ 21.60x ROAS vs. Google Ads @ 6.85x)
+ - Automated Data Quality Score: 18 / 18 Tests Passed (100.0% Pass Rate, 0 Critical Defects)
+ - HiLyst Platform Compatibility: 88.5% (Elevated from baseline prototype of 60.0%)
 ========================================================================================================
 ```
 
@@ -67,45 +67,45 @@ The warehouse enforces an automated 18-test data quality audit suite logging dir
 
 ```mermaid
 erDiagram
-    DimDate ||--o{ FactSalesOrderItems : "DateKey"
-    DimProduct ||--o{ FactSalesOrderItems : "ProductKey"
-    DimCustomer ||--o{ FactSalesOrderItems : "CustomerKey"
-    DimChannel ||--o{ FactSalesOrderItems : "ChannelKey"
-    DimFulfillment ||--o{ FactSalesOrderItems : "FulfillmentKey"
-    DimLocation ||--o{ FactSalesOrderItems : "LocationKey"
-    DimSeller ||--o{ FactSalesOrderItems : "SellerKey"
+ DimDate ||--o{ FactSalesOrderItems : "DateKey"
+ DimProduct ||--o{ FactSalesOrderItems : "ProductKey"
+ DimCustomer ||--o{ FactSalesOrderItems : "CustomerKey"
+ DimChannel ||--o{ FactSalesOrderItems : "ChannelKey"
+ DimFulfillment ||--o{ FactSalesOrderItems : "FulfillmentKey"
+ DimLocation ||--o{ FactSalesOrderItems : "LocationKey"
+ DimSeller ||--o{ FactSalesOrderItems : "SellerKey"
 
-    DimDate ||--o{ FactMarketingPerformance : "DateKey"
-    DimMarketingCampaign ||--o{ FactMarketingPerformance : "CampaignKey"
-    DimChannel ||--o{ FactMarketingPerformance : "ChannelKey"
-    DimLocation ||--o{ FactMarketingPerformance : "LocationKey"
+ DimDate ||--o{ FactMarketingPerformance : "DateKey"
+ DimMarketingCampaign ||--o{ FactMarketingPerformance : "CampaignKey"
+ DimChannel ||--o{ FactMarketingPerformance : "ChannelKey"
+ DimLocation ||--o{ FactMarketingPerformance : "LocationKey"
 
-    DimCustomer ||--o{ FactLeadScoring : "CustomerKey"
-    DimLocation ||--o{ FactLeadScoring : "LocationKey"
+ DimCustomer ||--o{ FactLeadScoring : "CustomerKey"
+ DimLocation ||--o{ FactLeadScoring : "LocationKey"
 
-    DimProduct ||--o{ FactInventorySnapshot : "ProductKey"
-    DimProduct ||--o{ FactChannelPricing : "ProductKey"
-    DimChannel ||--o{ FactChannelPricing : "ChannelKey"
-    DimDate ||--o{ FactOperationalExpenses : "DateKey"
+ DimProduct ||--o{ FactInventorySnapshot : "ProductKey"
+ DimProduct ||--o{ FactChannelPricing : "ProductKey"
+ DimChannel ||--o{ FactChannelPricing : "ChannelKey"
+ DimDate ||--o{ FactOperationalExpenses : "DateKey"
 ```
 
 ### Star Schema Entity Summary:
 - **8 Conformed Dimensions:**
-  - `gold.DimDate`: 2,193 days (2020-01-01 to 2025-12-31).
-  - `gold.DimProduct`: 40,802 conformed SKUs.
-  - `gold.DimCustomer`: 170,679 customer accounts.
-  - `gold.DimChannel`: 12 sales, marketplace, and ad channels.
-  - `gold.DimFulfillment`: 12 logistics routes.
-  - `gold.DimLocation`: 14,576 normalized geographical nodes.
-  - `gold.DimMarketingCampaign`: 19 search and social ad campaigns.
-  - `gold.DimSeller`: 1,999 multi-vendor marketplace sellers.
+ - `gold.DimDate`: 2,193 days (2020-01-01 to 2025-12-31).
+ - `gold.DimProduct`: 40,802 conformed SKUs.
+ - `gold.DimCustomer`: 170,679 customer accounts.
+ - `gold.DimChannel`: 12 sales, marketplace, and ad channels.
+ - `gold.DimFulfillment`: 12 logistics routes.
+ - `gold.DimLocation`: 14,576 normalized geographical nodes.
+ - `gold.DimMarketingCampaign`: 19 search and social ad campaigns.
+ - `gold.DimSeller`: 1,999 multi-vendor marketplace sellers.
 - **6 Grain-Specific Fact Tables:**
-  - `gold.FactSalesOrderItems`: 514,000+ transactional rows.
-  - `gold.FactMarketingPerformance`: 2,916 campaign ad day records.
-  - `gold.FactLeadScoring`: 634 scored leads.
-  - `gold.FactInventorySnapshot`: 6,618 warehouse stock positions.
-  - `gold.FactChannelPricing`: 9,057 multi-portal pricing spreads.
-  - `gold.FactOperationalExpenses`: 17 operational ledger entries.
+ - `gold.FactSalesOrderItems`: 514,000+ transactional rows.
+ - `gold.FactMarketingPerformance`: 2,916 campaign ad day records.
+ - `gold.FactLeadScoring`: 634 scored leads.
+ - `gold.FactInventorySnapshot`: 6,618 warehouse stock positions.
+ - `gold.FactChannelPricing`: 9,057 multi-portal pricing spreads.
+ - `gold.FactOperationalExpenses`: 17 operational ledger entries.
 
 ---
 
@@ -138,33 +138,33 @@ The platform includes **4 active heuristic engines** generating confidence-score
 ## 7. Complete Deliverables Manifest
 
 - **Database Engineering (`sql/`):**
-  - [01_setup_database_and_schemas.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/01_setup_database_and_schemas.sql)
-  - [02_bronze_layer_ddl.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/02_bronze_layer_ddl.sql)
-  - [03_silver_transformations.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/03_silver_transformations.sql)
-  - [04_gold_star_schema_ddl.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/04_gold_star_schema_ddl.sql)
-  - [05_gold_etl_procedures.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/05_gold_etl_procedures.sql)
-  - [06_data_quality_framework.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/06_data_quality_framework.sql)
-  - [07_analytics_semantic_views.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/07_analytics_semantic_views.sql)
-  - [08_advanced_analytics_queries.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/08_advanced_analytics_queries.sql)
+ - [01_setup_database_and_schemas.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/01_setup_database_and_schemas.sql)
+ - [02_bronze_layer_ddl.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/02_bronze_layer_ddl.sql)
+ - [03_silver_transformations.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/03_silver_transformations.sql)
+ - [04_gold_star_schema_ddl.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/04_gold_star_schema_ddl.sql)
+ - [05_gold_etl_procedures.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/05_gold_etl_procedures.sql)
+ - [06_data_quality_framework.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/06_data_quality_framework.sql)
+ - [07_analytics_semantic_views.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/07_analytics_semantic_views.sql)
+ - [08_advanced_analytics_queries.sql](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/sql/08_advanced_analytics_queries.sql)
 - **Python Automation Pipeline (`pipeline/`):**
-  - [load_bronze_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/load_bronze_data.py)
-  - [run_pipeline_validation.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/run_pipeline_validation.py)
-  - [export_gold_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/export_gold_data.py)
-  - [export_dashboard_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/export_dashboard_data.py)
+ - [load_bronze_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/load_bronze_data.py)
+ - [run_pipeline_validation.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/run_pipeline_validation.py)
+ - [export_gold_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/export_gold_data.py)
+ - [export_dashboard_data.py](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/pipeline/export_dashboard_data.py)
 - **Interactive BI Dashboard Application (`dashboard/`):**
-  - [index.html](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/index.html)
-  - [styles.css](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/styles.css)
-  - [app.js](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/app.js)
-  - [data.js](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/data.js)
-  - [data.json](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/data.json)
+ - [index.html](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/index.html)
+ - [styles.css](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/styles.css)
+ - [app.js](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/app.js)
+ - [data.js](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/data.js)
+ - [data.json](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/dashboard/data.json)
 - **Comprehensive Architectural Documentation Suite (`docs/`):**
-  - [01_DATA_DISCOVERY_AND_PROFILING.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/01_DATA_DISCOVERY_AND_PROFILING.md)
-  - [02_DATA_WAREHOUSE_ARCHITECTURE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/02_DATA_WAREHOUSE_ARCHITECTURE.md)
-  - [03_DATA_QUALITY_AND_GOVERNANCE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/03_DATA_QUALITY_AND_GOVERNANCE.md)
-  - [04_BUSINESS_ANALYTICS_AND_INSIGHTS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/04_BUSINESS_ANALYTICS_AND_INSIGHTS.md)
-  - [05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md)
-  - [06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md)
-  - [07_MULTI_SOURCE_INTEGRATION.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/07_MULTI_SOURCE_INTEGRATION.md)
-  - [08_SEMANTIC_METRIC_CATALOG.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/08_SEMANTIC_METRIC_CATALOG.md)
-  - [09_AI_INSIGHT_ENGINE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/09_AI_INSIGHT_ENGINE.md)
-  - [README.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/README.md)
+ - [01_DATA_DISCOVERY_AND_PROFILING.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/01_DATA_DISCOVERY_AND_PROFILING.md)
+ - [02_DATA_WAREHOUSE_ARCHITECTURE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/02_DATA_WAREHOUSE_ARCHITECTURE.md)
+ - [03_DATA_QUALITY_AND_GOVERNANCE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/03_DATA_QUALITY_AND_GOVERNANCE.md)
+ - [04_BUSINESS_ANALYTICS_AND_INSIGHTS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/04_BUSINESS_ANALYTICS_AND_INSIGHTS.md)
+ - [05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md)
+ - [06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md)
+ - [07_MULTI_SOURCE_INTEGRATION.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/07_MULTI_SOURCE_INTEGRATION.md)
+ - [08_SEMANTIC_METRIC_CATALOG.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/08_SEMANTIC_METRIC_CATALOG.md)
+ - [09_AI_INSIGHT_ENGINE.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/docs/09_AI_INSIGHT_ENGINE.md)
+ - [README.md](file:///C:/Users/pc/Documents/HiLyst/Shopify%20E-Commerce%20Sales%20Dataset/README.md)

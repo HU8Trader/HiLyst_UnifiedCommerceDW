@@ -1,11 +1,11 @@
 # HiLyst Unified Business Intelligence & Decision Intelligence Platform
 
-> **Tagline:** *"Visualize. Analyze. Then Decide."*  
-> **System Name:** `HiLyst_UnifiedCommerceDW` (Enterprise Data Warehouse)  
-> **Technology Stack:** Microsoft SQL Server 2025 / Python 3.12 / T-SQL / Kimball Star Schema / Chart.js / Vanilla JavaScript  
-> **Data Quality Status:** 100% Validated (18/18 Automated Integrity Tests Passed)  
-> **HiLyst Compatibility Score:** **88.5%** (Elevated from baseline 60.0%)  
-> **Repository:** [https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW.git](https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW.git)  
+> **Tagline:** *"Visualize. Analyze. Then Decide."* 
+> **System Name:** `HiLyst_UnifiedCommerceDW` (Enterprise Data Warehouse) 
+> **Technology Stack:** Microsoft SQL Server 2025 / Python 3.12 / T-SQL / Kimball Star Schema / Chart.js / Vanilla JavaScript 
+> **Data Quality Status:** 100% Validated (18/18 Automated Integrity Tests Passed) 
+> **HiLyst Compatibility Score:** **88.5%** (Elevated from baseline 60.0%) 
+> **Repository:** [https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW.git](https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW.git) 
 
 ---
 
@@ -17,13 +17,13 @@ The platform processes **13 disparate multi-source datasets** (559,000+ raw reco
 
 ```
 +---------------------------------------------------------------------------------------------------------+
-|                                     HILYST ENTERPRISE DW HIGHLIGHTS                                     |
+| HILYST ENTERPRISE DW HIGHLIGHTS |
 +-------------------------+-------------------------+-------------------------+---------------------------+
-|    Total Raw Ingestion  |    Star Schema Grain    |   Automated DQ Tests    |   HiLyst Compatibility    |
-|    559,000+ Raw Rows    |    514,000+ Fact Rows   |     18 / 18 PASSED      |           88.5%           |
+| Total Raw Ingestion | Star Schema Grain | Automated DQ Tests | HiLyst Compatibility |
+| 559,000+ Raw Rows | 514,000+ Fact Rows | 18 / 18 PASSED | 88.5% |
 +-------------------------+-------------------------+-------------------------+---------------------------+
-|    Gross Merchandise    |       Net Revenue       |     Catalog Master      |      Customer Profiles    |
-|     ₹14,82,40,000+      |     ₹13,95,60,000+      |       40,802 SKUs       |      170,679 Profiles     |
+| Gross Merchandise | Net Revenue | Catalog Master | Customer Profiles |
+| ₹14,82,40,000+ | ₹13,95,60,000+ | 40,802 SKUs | 170,679 Profiles |
 +-------------------------+-------------------------+-------------------------+---------------------------+
 ```
 
@@ -34,8 +34,8 @@ The platform processes **13 disparate multi-source datasets** (559,000+ raw reco
 The platform includes a responsive, zero-dependency executive web dashboard built with HTML5, CSS3, and Chart.js, styled in a sleek **Obsidian Dark & Studio Light** aesthetic:
 
 ```
-[ EXECUTIVE HUB ]  [ SALES ANALYTICS ]  [ DIGITAL MARKETING ]  [ PRODUCT CATALOG ]  [ CUSTOMER 360 ]
-[ INVENTORY HEALTH ]  [ ARBITRAGE OPTIMIZER ]  [ AI DECISION ENGINE ]  [ DATA QUALITY (18/18) ]
+[ EXECUTIVE HUB ] [ SALES ANALYTICS ] [ DIGITAL MARKETING ] [ PRODUCT CATALOG ] [ CUSTOMER 360 ]
+[ INVENTORY HEALTH ] [ ARBITRAGE OPTIMIZER ] [ AI DECISION ENGINE ] [ DATA QUALITY (18/18) ]
 ```
 
 ### Dashboard Core Views:
@@ -57,88 +57,88 @@ The platform includes a responsive, zero-dependency executive web dashboard buil
 
 ```mermaid
 flowchart TD
-    subgraph SOURCES ["13 MULTI-SOURCE RAW DATASETS (559k+ Rows)"]
-        S1["Amazon Sale Report.csv (128.9k rows)"]
-        S2["International sale Report.csv (37.4k rows)"]
-        S3["Sale Report.csv (9.2k rows)"]
-        S4["May-2022.csv (1.3k rows)"]
-        S5["P & L March 2021.csv (1.3k rows)"]
-        S6["Cloud Warehouse Comparison.csv (50 rows)"]
-        S7["Expense IIGF.csv (17 rows)"]
-        S8["Amazon_Global_Sales.csv (100k rows)"]
-        S9["Flipkart_Product_Details.csv (32.2k rows)"]
-        S10["Flipkart_Sales_Transactions.csv (248.8k rows)"]
-        S11["Google_Ads_Performance.csv (2.6k rows)"]
-        S12["Facebook_Ads_Performance.csv (316 rows)"]
-        S13["Facebook_Leads_Scoring.csv (499 rows)"]
-    end
+ subgraph SOURCES ["13 MULTI-SOURCE RAW DATASETS (559k+ Rows)"]
+ S1["Amazon Sale Report.csv (128.9k rows)"]
+ S2["International sale Report.csv (37.4k rows)"]
+ S3["Sale Report.csv (9.2k rows)"]
+ S4["May-2022.csv (1.3k rows)"]
+ S5["P & L March 2021.csv (1.3k rows)"]
+ S6["Cloud Warehouse Comparison.csv (50 rows)"]
+ S7["Expense IIGF.csv (17 rows)"]
+ S8["Amazon_Global_Sales.csv (100k rows)"]
+ S9["Flipkart_Product_Details.csv (32.2k rows)"]
+ S10["Flipkart_Sales_Transactions.csv (248.8k rows)"]
+ S11["Google_Ads_Performance.csv (2.6k rows)"]
+ S12["Facebook_Ads_Performance.csv (316 rows)"]
+ S13["Facebook_Leads_Scoring.csv (499 rows)"]
+ end
 
-    subgraph BRONZE ["BRONZE STAGING LAYER (13 Staging Tables)"]
-        B1["bronze.RawAmazonSales"]
-        B2["bronze.RawInternationalSales"]
-        B3["bronze.RawProductStock"]
-        B4["bronze.RawMay2022Pricing"]
-        B5["bronze.RawPLMarch2021"]
-        B6["bronze.RawWarehouseComparison"]
-        B7["bronze.RawExpenseIIGF"]
-        B8["bronze.RawAmazonGlobalSales"]
-        B9["bronze.RawFlipkartProducts"]
-        B10["bronze.RawFlipkartSales"]
-        B11["bronze.RawGoogleAds"]
-        B12["bronze.RawFacebookAds"]
-        B13["bronze.RawFacebookLeads"]
-    end
+ subgraph BRONZE ["BRONZE STAGING LAYER (13 Staging Tables)"]
+ B1["bronze.RawAmazonSales"]
+ B2["bronze.RawInternationalSales"]
+ B3["bronze.RawProductStock"]
+ B4["bronze.RawMay2022Pricing"]
+ B5["bronze.RawPLMarch2021"]
+ B6["bronze.RawWarehouseComparison"]
+ B7["bronze.RawExpenseIIGF"]
+ B8["bronze.RawAmazonGlobalSales"]
+ B9["bronze.RawFlipkartProducts"]
+ B10["bronze.RawFlipkartSales"]
+ B11["bronze.RawGoogleAds"]
+ B12["bronze.RawFacebookAds"]
+ B13["bronze.RawFacebookLeads"]
+ end
 
-    subgraph SILVER ["SILVER CLEANSING & CONFORMANCE LAYER (11 Tables & Procedures)"]
-        SV1["silver.CleanAmazonOrders"]
-        SV2["silver.CleanWholesaleSales"]
-        SV3["silver.CleanInventoryStock"]
-        SV4["silver.CleanProductPricing"]
-        SV5["silver.CleanOperationalExpenses"]
-        SV6["silver.CleanWarehouseBenchmarks"]
-        SV7["silver.CleanAmazonGlobalOrders"]
-        SV8["silver.CleanFlipkartProducts"]
-        SV9["silver.CleanFlipkartSales"]
-        SV10["silver.CleanGoogleAds"]
-        SV11["silver.CleanFacebookAds"]
-        SV12["silver.CleanFacebookLeads"]
-    end
+ subgraph SILVER ["SILVER CLEANSING & CONFORMANCE LAYER (11 Tables & Procedures)"]
+ SV1["silver.CleanAmazonOrders"]
+ SV2["silver.CleanWholesaleSales"]
+ SV3["silver.CleanInventoryStock"]
+ SV4["silver.CleanProductPricing"]
+ SV5["silver.CleanOperationalExpenses"]
+ SV6["silver.CleanWarehouseBenchmarks"]
+ SV7["silver.CleanAmazonGlobalOrders"]
+ SV8["silver.CleanFlipkartProducts"]
+ SV9["silver.CleanFlipkartSales"]
+ SV10["silver.CleanGoogleAds"]
+ SV11["silver.CleanFacebookAds"]
+ SV12["silver.CleanFacebookLeads"]
+ end
 
-    subgraph GOLD ["GOLD KIMBALL STAR SCHEMA (8 Conformed Dimensions + 6 Fact Tables)"]
-        D1["gold.DimDate (2,193 days)"]
-        D2["gold.DimProduct (40,802 SKUs)"]
-        D3["gold.DimCustomer (170,679 accounts)"]
-        D4["gold.DimChannel (12 channels)"]
-        D5["gold.DimFulfillment (12 routes)"]
-        D6["gold.DimLocation (14,576 nodes)"]
-        D7["gold.DimMarketingCampaign (19 campaigns)"]
-        D8["gold.DimSeller (1,999 sellers)"]
-        
-        F1["gold.FactSalesOrderItems (514k+ line items)"]
-        F2["gold.FactMarketingPerformance (2,916 ad days)"]
-        F3["gold.FactLeadScoring (634 scored leads)"]
-        F4["gold.FactInventorySnapshot (6,618 stock records)"]
-        F5["gold.FactChannelPricing (9,057 spreads)"]
-        F6["gold.FactOperationalExpenses (17 expense rows)"]
-    end
+ subgraph GOLD ["GOLD KIMBALL STAR SCHEMA (8 Conformed Dimensions + 6 Fact Tables)"]
+ D1["gold.DimDate (2,193 days)"]
+ D2["gold.DimProduct (40,802 SKUs)"]
+ D3["gold.DimCustomer (170,679 accounts)"]
+ D4["gold.DimChannel (12 channels)"]
+ D5["gold.DimFulfillment (12 routes)"]
+ D6["gold.DimLocation (14,576 nodes)"]
+ D7["gold.DimMarketingCampaign (19 campaigns)"]
+ D8["gold.DimSeller (1,999 sellers)"]
+ 
+ F1["gold.FactSalesOrderItems (514k+ line items)"]
+ F2["gold.FactMarketingPerformance (2,916 ad days)"]
+ F3["gold.FactLeadScoring (634 scored leads)"]
+ F4["gold.FactInventorySnapshot (6,618 stock records)"]
+ F5["gold.FactChannelPricing (9,057 spreads)"]
+ F6["gold.FactOperationalExpenses (17 expense rows)"]
+ end
 
-    subgraph ANALYTICS ["GOVERNED SEMANTIC LAYER (10 Semantic Views)"]
-        A1["analytics.v_ExecutiveScorecard"]
-        A2["analytics.v_SalesPerformanceDaily"]
-        A3["analytics.v_ChannelPerformanceSummary"]
-        A4["analytics.v_MarketingROASAndAttribution"]
-        A5["analytics.v_ProductPerformancePareto"]
-        A6["analytics.v_InventoryHealthAndValuation"]
-        A7["analytics.v_ChannelPricingArbitrage"]
-        A8["analytics.v_Customer360Overview"]
-        A9["analytics.v_LeadScoringQuality"]
-        A10["analytics.v_ProfitAndLossBridge"]
-    end
+ subgraph ANALYTICS ["GOVERNED SEMANTIC LAYER (10 Semantic Views)"]
+ A1["analytics.v_ExecutiveScorecard"]
+ A2["analytics.v_SalesPerformanceDaily"]
+ A3["analytics.v_ChannelPerformanceSummary"]
+ A4["analytics.v_MarketingROASAndAttribution"]
+ A5["analytics.v_ProductPerformancePareto"]
+ A6["analytics.v_InventoryHealthAndValuation"]
+ A7["analytics.v_ChannelPricingArbitrage"]
+ A8["analytics.v_Customer360Overview"]
+ A9["analytics.v_LeadScoringQuality"]
+ A10["analytics.v_ProfitAndLossBridge"]
+ end
 
-    SOURCES --> BRONZE
-    BRONZE --> SILVER
-    SILVER --> GOLD
-    GOLD --> ANALYTICS
+ SOURCES --> BRONZE
+ BRONZE --> SILVER
+ SILVER --> GOLD
+ GOLD --> ANALYTICS
 ```
 
 ---
@@ -177,24 +177,24 @@ The warehouse enforces an automated **18-Test Data Quality Audit Suite** executi
 ========================================================================================
  HILYST AUTOMATED DATA QUALITY AUDIT SCORECARD (18 TESTS)
 ========================================================================================
- Test 01: DimDate Completeness & Non-Null Integrity                  --> [PASSED] (100.0%)
- Test 02: DimProduct SKU Uniqueness & Primary Key Integrity          --> [PASSED] (100.0%)
- Test 03: Referential Integrity: FactSales -> DimProduct             --> [PASSED] (100.0%)
- Test 04: Referential Integrity: FactSales -> DimDate                --> [PASSED] (100.0%)
- Test 05: Referential Integrity: FactSales -> DimChannel             --> [PASSED] (100.0%)
- Test 06: Referential Integrity: FactSales -> DimCustomer            --> [PASSED] (100.0%)
- Test 07: Referential Integrity: FactSales -> DimLocation            --> [PASSED] (100.0%)
- Test 08: Non-Negative Financial Integrity: Gross Amount >= 0        --> [PASSED] (100.0%)
- Test 09: Non-Negative Quantity Integrity: Quantity >= 0             --> [PASSED] (100.0%)
- Test 10: Financial Arithmetic: NetAmount <= GrossAmount + Buffer    --> [PASSED] (100.0%)
- Test 11: Marketing Spend Domain Integrity: Spend >= 0 & ROAS Valid  --> [PASSED] (100.0%)
- Test 12: Lead Quality Tier Domain Constraint Integrity              --> [PASSED] (100.0%)
- Test 13: DimCustomer Primary Key Uniqueness                         --> [PASSED] (100.0%)
- Test 14: DimChannel Primary Key Uniqueness                          --> [PASSED] (100.0%)
- Test 15: FactInventorySnapshot Stock Non-Negative                   --> [PASSED] (100.0%)
- Test 16: FactChannelPricing Margin Spread Non-Negative              --> [PASSED] (100.0%)
- Test 17: Date Boundary Integrity (2020-01-01 to 2025-12-31)         --> [PASSED] (100.0%)
- Test 18: Order Status Conformance Domain Validation                 --> [PASSED] (100.0%)
+ Test 01: DimDate Completeness & Non-Null Integrity --> [PASSED] (100.0%)
+ Test 02: DimProduct SKU Uniqueness & Primary Key Integrity --> [PASSED] (100.0%)
+ Test 03: Referential Integrity: FactSales -> DimProduct --> [PASSED] (100.0%)
+ Test 04: Referential Integrity: FactSales -> DimDate --> [PASSED] (100.0%)
+ Test 05: Referential Integrity: FactSales -> DimChannel --> [PASSED] (100.0%)
+ Test 06: Referential Integrity: FactSales -> DimCustomer --> [PASSED] (100.0%)
+ Test 07: Referential Integrity: FactSales -> DimLocation --> [PASSED] (100.0%)
+ Test 08: Non-Negative Financial Integrity: Gross Amount >= 0 --> [PASSED] (100.0%)
+ Test 09: Non-Negative Quantity Integrity: Quantity >= 0 --> [PASSED] (100.0%)
+ Test 10: Financial Arithmetic: NetAmount <= GrossAmount + Buffer --> [PASSED] (100.0%)
+ Test 11: Marketing Spend Domain Integrity: Spend >= 0 & ROAS Valid --> [PASSED] (100.0%)
+ Test 12: Lead Quality Tier Domain Constraint Integrity --> [PASSED] (100.0%)
+ Test 13: DimCustomer Primary Key Uniqueness --> [PASSED] (100.0%)
+ Test 14: DimChannel Primary Key Uniqueness --> [PASSED] (100.0%)
+ Test 15: FactInventorySnapshot Stock Non-Negative --> [PASSED] (100.0%)
+ Test 16: FactChannelPricing Margin Spread Non-Negative --> [PASSED] (100.0%)
+ Test 17: Date Boundary Integrity (2020-01-01 to 2025-12-31) --> [PASSED] (100.0%)
+ Test 18: Order Status Conformance Domain Validation --> [PASSED] (100.0%)
 ========================================================================================
  OVERALL DATA QUALITY PASS RATE: 18 / 18 TESTS PASSED (100.0% COMPLIANCE)
 ========================================================================================
@@ -234,54 +234,54 @@ The **HiLyst AI Insight Engine** translates complex analytical signals into pres
 
 ```
 .
-├── Gold_Layer_Data/                      # Verified Gold Star Schema CSV Exports & Views
-│   ├── DimDate.csv
-│   ├── DimProduct.csv
-│   ├── DimCustomer.csv
-│   ├── DimChannel.csv
-│   ├── DimFulfillment.csv
-│   ├── DimLocation.csv
-│   ├── DimMarketingCampaign.csv
-│   ├── DimSeller.csv
-│   ├── FactSalesOrderItems.csv
-│   ├── FactMarketingPerformance.csv
-│   ├── FactLeadScoring.csv
-│   ├── FactInventorySnapshot.csv
-│   ├── FactChannelPricing.csv
-│   ├── FactOperationalExpenses.csv
-│   └── v_*.csv                           # 10 Semantic View Data Exports
-├── dashboard/                            # Interactive BI Dashboard Web Application
-│   ├── index.html                        # Multi-view dashboard entry point
-│   ├── styles.css                        # Obsidian Dark & Light Studio design system
-│   ├── app.js                            # UI state management, rendering & Chart.js logic
-│   ├── data.js                           # Embedded JSON analytics dataset for zero-CORS local viewing
-│   └── data.json                         # Pure JSON data payload
-├── docs/                                 # Architectural Documentation Suite
-│   ├── 01_DATA_DISCOVERY_AND_PROFILING.md
-│   ├── 02_DATA_WAREHOUSE_ARCHITECTURE.md
-│   ├── 03_DATA_QUALITY_AND_GOVERNANCE.md
-│   ├── 04_BUSINESS_ANALYTICS_AND_INSIGHTS.md
-│   ├── 05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md
-│   ├── 06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md
-│   ├── 07_MULTI_SOURCE_INTEGRATION.md
-│   ├── 08_SEMANTIC_METRIC_CATALOG.md
-│   └── 09_AI_INSIGHT_ENGINE.md
-├── pipeline/                             # Python Automation & Orchestration Pipeline
-│   ├── load_bronze_data.py               # Bulk multi-source ingestion script
-│   ├── run_pipeline_validation.py        # Master end-to-end pipeline & DQ validation runner
-│   ├── export_gold_data.py               # Gold layer and semantic view CSV exporter
-│   └── export_dashboard_data.py          # Dashboard JSON and JS payload builder
-├── sql/                                  # Modular T-SQL Data Warehouse DDL & Stored Procedures
-│   ├── 01_setup_database_and_schemas.sql
-│   ├── 02_bronze_layer_ddl.sql
-│   ├── 03_silver_transformations.sql
-│   ├── 04_gold_star_schema_ddl.sql
-│   ├── 05_gold_etl_procedures.sql
-│   ├── 06_data_quality_framework.sql
-│   ├── 07_analytics_semantic_views.sql
-│   └── 08_advanced_analytics_queries.sql
-├── README.md                             # Enterprise Platform Documentation
-└── walkthrough.md                        # Master Completion & Verification Walkthrough
+├── Gold_Layer_Data/ # Verified Gold Star Schema CSV Exports & Views
+│ ├── DimDate.csv
+│ ├── DimProduct.csv
+│ ├── DimCustomer.csv
+│ ├── DimChannel.csv
+│ ├── DimFulfillment.csv
+│ ├── DimLocation.csv
+│ ├── DimMarketingCampaign.csv
+│ ├── DimSeller.csv
+│ ├── FactSalesOrderItems.csv
+│ ├── FactMarketingPerformance.csv
+│ ├── FactLeadScoring.csv
+│ ├── FactInventorySnapshot.csv
+│ ├── FactChannelPricing.csv
+│ ├── FactOperationalExpenses.csv
+│ └── v_*.csv # 10 Semantic View Data Exports
+├── dashboard/ # Interactive BI Dashboard Web Application
+│ ├── index.html # Multi-view dashboard entry point
+│ ├── styles.css # Obsidian Dark & Light Studio design system
+│ ├── app.js # UI state management, rendering & Chart.js logic
+│ ├── data.js # Embedded JSON analytics dataset for zero-CORS local viewing
+│ └── data.json # Pure JSON data payload
+├── docs/ # Architectural Documentation Suite
+│ ├── 01_DATA_DISCOVERY_AND_PROFILING.md
+│ ├── 02_DATA_WAREHOUSE_ARCHITECTURE.md
+│ ├── 03_DATA_QUALITY_AND_GOVERNANCE.md
+│ ├── 04_BUSINESS_ANALYTICS_AND_INSIGHTS.md
+│ ├── 05_HILYST_COMPATIBILITY_AND_GAP_ANALYSIS.md
+│ ├── 06_FUTURE_ARCHITECTURE_AND_AI_READINESS.md
+│ ├── 07_MULTI_SOURCE_INTEGRATION.md
+│ ├── 08_SEMANTIC_METRIC_CATALOG.md
+│ └── 09_AI_INSIGHT_ENGINE.md
+├── pipeline/ # Python Automation & Orchestration Pipeline
+│ ├── load_bronze_data.py # Bulk multi-source ingestion script
+│ ├── run_pipeline_validation.py # Master end-to-end pipeline & DQ validation runner
+│ ├── export_gold_data.py # Gold layer and semantic view CSV exporter
+│ └── export_dashboard_data.py # Dashboard JSON and JS payload builder
+├── sql/ # Modular T-SQL Data Warehouse DDL & Stored Procedures
+│ ├── 01_setup_database_and_schemas.sql
+│ ├── 02_bronze_layer_ddl.sql
+│ ├── 03_silver_transformations.sql
+│ ├── 04_gold_star_schema_ddl.sql
+│ ├── 05_gold_etl_procedures.sql
+│ ├── 06_data_quality_framework.sql
+│ ├── 07_analytics_semantic_views.sql
+│ └── 08_advanced_analytics_queries.sql
+├── README.md # Enterprise Platform Documentation
+└── walkthrough.md # Master Completion & Verification Walkthrough
 ```
 
 ---
@@ -311,5 +311,5 @@ Open `dashboard/index.html` directly in Google Chrome, Microsoft Edge, or Mozill
 
 ## 10. License & Attribution
 
-Developed for the **HiLyst Unified Business Intelligence & Decision Intelligence Platform**.  
+Developed for the **HiLyst Unified Business Intelligence & Decision Intelligence Platform**. 
 Architecture designed and engineered by **Autonomous Multi-Source BI Agent**.

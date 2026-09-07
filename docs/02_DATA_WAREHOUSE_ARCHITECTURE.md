@@ -6,86 +6,86 @@ The **HiLyst Unified Business Intelligence & Decision Intelligence Platform (`Hi
 
 ```mermaid
 flowchart TD
-    subgraph Layer0["Multi-Source Enterprise Ingestion (13 Feeds)"]
-        F1["Amazon India Sales CSV (128k)"]
-        F2["International Wholesale Export CSV (37k)"]
-        F3["Physical Inventory Stock CSV (9.2k)"]
-        F4["Channel Pricing & Cost Masters (2.6k)"]
-        F5["Warehouse SLA & Petty Cash CSVs"]
-        F6["Amazon Global Marketplace CSV (100k)"]
-        F7["Flipkart Taxonomy Master (32.2k)"]
-        F8["Flipkart Quick-Commerce Sales (248k sampled)"]
-        F9["Google Ads Paid Search CSV (2.6k)"]
-        F10["Meta Ads Retargeting CSV (316)"]
-        F11["Meta Lead Propensity CSV (499)"]
-    end
+ subgraph Layer0["Multi-Source Enterprise Ingestion (13 Feeds)"]
+ F1["Amazon India Sales CSV (128k)"]
+ F2["International Wholesale Export CSV (37k)"]
+ F3["Physical Inventory Stock CSV (9.2k)"]
+ F4["Channel Pricing & Cost Masters (2.6k)"]
+ F5["Warehouse SLA & Petty Cash CSVs"]
+ F6["Amazon Global Marketplace CSV (100k)"]
+ F7["Flipkart Taxonomy Master (32.2k)"]
+ F8["Flipkart Quick-Commerce Sales (248k sampled)"]
+ F9["Google Ads Paid Search CSV (2.6k)"]
+ F10["Meta Ads Retargeting CSV (316)"]
+ F11["Meta Lead Propensity CSV (499)"]
+ end
 
-    subgraph Layer1["Bronze Layer (Raw Multi-Source Staging)"]
-        B1["bronze.RawAmazonSales"]
-        B2["bronze.RawInternationalSales"]
-        B3["bronze.RawProductStock"]
-        B4["bronze.RawMay2022Pricing"]
-        B5["bronze.RawPLMarch2021"]
-        B6["bronze.RawWarehouseComparison"]
-        B7["bronze.RawExpenseIIGF"]
-        B8["bronze.RawAmazonGlobalSales"]
-        B9["bronze.RawFlipkartProducts"]
-        B10["bronze.RawFlipkartSales"]
-        B11["bronze.RawGoogleAds"]
-        B12["bronze.RawFacebookAds"]
-        B13["bronze.RawFacebookLeads"]
-    end
+ subgraph Layer1["Bronze Layer (Raw Multi-Source Staging)"]
+ B1["bronze.RawAmazonSales"]
+ B2["bronze.RawInternationalSales"]
+ B3["bronze.RawProductStock"]
+ B4["bronze.RawMay2022Pricing"]
+ B5["bronze.RawPLMarch2021"]
+ B6["bronze.RawWarehouseComparison"]
+ B7["bronze.RawExpenseIIGF"]
+ B8["bronze.RawAmazonGlobalSales"]
+ B9["bronze.RawFlipkartProducts"]
+ B10["bronze.RawFlipkartSales"]
+ B11["bronze.RawGoogleAds"]
+ B12["bronze.RawFacebookAds"]
+ B13["bronze.RawFacebookLeads"]
+ end
 
-    subgraph Layer2["Silver Layer (Cleansed & Conformed Relational Master)"]
-        S1["silver.CleanAmazonOrders"]
-        S2["silver.CleanWholesaleSales"]
-        S3["silver.CleanInventoryStock"]
-        S4["silver.CleanProductPricing"]
-        S5["silver.CleanOperationalExpenses"]
-        S6["silver.CleanAmazonGlobalOrders"]
-        S7["silver.CleanFlipkartProducts"]
-        S8["silver.CleanFlipkartSales"]
-        S9["silver.CleanGoogleAds"]
-        S10["silver.CleanFacebookAds"]
-        S11["silver.CleanFacebookLeads"]
-    end
+ subgraph Layer2["Silver Layer (Cleansed & Conformed Relational Master)"]
+ S1["silver.CleanAmazonOrders"]
+ S2["silver.CleanWholesaleSales"]
+ S3["silver.CleanInventoryStock"]
+ S4["silver.CleanProductPricing"]
+ S5["silver.CleanOperationalExpenses"]
+ S6["silver.CleanAmazonGlobalOrders"]
+ S7["silver.CleanFlipkartProducts"]
+ S8["silver.CleanFlipkartSales"]
+ S9["silver.CleanGoogleAds"]
+ S10["silver.CleanFacebookAds"]
+ S11["silver.CleanFacebookLeads"]
+ end
 
-    subgraph Layer3["Gold Layer (Kimball Dimensional Star Schema)"]
-        D1["gold.DimDate (2,193 Days)"]
-        D2["gold.DimProduct (8,576 Master SKUs)"]
-        D3["gold.DimCustomer (170k+ Profiles)"]
-        D4["gold.DimChannel (12 Channels)"]
-        D5["gold.DimFulfillment (12 Routes)"]
-        D6["gold.DimLocation (14,576 Geo Nodes)"]
-        D7["gold.DimMarketingCampaign (19 Campaigns)"]
-        D8["gold.DimSeller (1,999 Sellers)"]
+ subgraph Layer3["Gold Layer (Kimball Dimensional Star Schema)"]
+ D1["gold.DimDate (2,193 Days)"]
+ D2["gold.DimProduct (8,576 Master SKUs)"]
+ D3["gold.DimCustomer (170k+ Profiles)"]
+ D4["gold.DimChannel (12 Channels)"]
+ D5["gold.DimFulfillment (12 Routes)"]
+ D6["gold.DimLocation (14,576 Geo Nodes)"]
+ D7["gold.DimMarketingCampaign (19 Campaigns)"]
+ D8["gold.DimSeller (1,999 Sellers)"]
 
-        F1_Gold["gold.FactSalesOrderItems (515k+ Rows)"]
-        F2_Gold["gold.FactMarketingPerformance (2.9k Rows)"]
-        F3_Gold["gold.FactLeadScoring (499 Rows)"]
-        F4_Gold["gold.FactInventorySnapshot (9.2k Rows)"]
-        F5_Gold["gold.FactChannelPricing (10.6k Rows)"]
-        F6_Gold["gold.FactOperationalExpenses (67 Rows)"]
-    end
+ F1_Gold["gold.FactSalesOrderItems (515k+ Rows)"]
+ F2_Gold["gold.FactMarketingPerformance (2.9k Rows)"]
+ F3_Gold["gold.FactLeadScoring (499 Rows)"]
+ F4_Gold["gold.FactInventorySnapshot (9.2k Rows)"]
+ F5_Gold["gold.FactChannelPricing (10.6k Rows)"]
+ F6_Gold["gold.FactOperationalExpenses (67 Rows)"]
+ end
 
-    subgraph Layer4["Analytics Layer (Semantic Views & AI Decision Layer)"]
-        V1["analytics.vw_ExecutiveKPIs"]
-        V2["analytics.vw_DailySalesSummary"]
-        V3["analytics.vw_ChannelProfitability"]
-        V4["analytics.vw_MarketingIntelligence"]
-        V5["analytics.vw_ProductPerformance"]
-        V6["analytics.vw_CustomerRFM"]
-        V7["analytics.vw_CrossChannelArbitrage"]
-        V8["analytics.vw_InventoryHealth"]
-        V9["analytics.vw_GeographicIntelligence"]
-        V10["analytics.vw_AIDecisionInsights"]
-        AI["Autonomous AI Decision Engine"]
-    end
+ subgraph Layer4["Analytics Layer (Semantic Views & AI Decision Layer)"]
+ V1["analytics.vw_ExecutiveKPIs"]
+ V2["analytics.vw_DailySalesSummary"]
+ V3["analytics.vw_ChannelProfitability"]
+ V4["analytics.vw_MarketingIntelligence"]
+ V5["analytics.vw_ProductPerformance"]
+ V6["analytics.vw_CustomerRFM"]
+ V7["analytics.vw_CrossChannelArbitrage"]
+ V8["analytics.vw_InventoryHealth"]
+ V9["analytics.vw_GeographicIntelligence"]
+ V10["analytics.vw_AIDecisionInsights"]
+ AI["Autonomous AI Decision Engine"]
+ end
 
-    Layer0 --> Layer1
-    Layer1 --> Layer2
-    Layer2 --> Layer3
-    Layer3 --> Layer4
+ Layer0 --> Layer1
+ Layer1 --> Layer2
+ Layer2 --> Layer3
+ Layer3 --> Layer4
 ```
 
 ---
@@ -95,34 +95,34 @@ flowchart TD
 ### 2.1 Bronze Layer (Raw Storage & Complete Lineage)
 - **Objective:** Ingest all 13 source feeds with zero data loss, preserving unparsed headers, whitespace, and raw formats.
 - **Audit Columns:** Every Bronze table appends:
-  - `_SourceRowId BIGINT IDENTITY(1,1)`: Deterministic physical row sequence.
-  - `_IngestedAt DATETIME2`: Exact UTC ingestion timestamp.
-  - `_SourceFile NVARCHAR(260)`: Source file provenance and lineage.
+ - `_SourceRowId BIGINT IDENTITY(1,1)`: Deterministic physical row sequence.
+ - `_IngestedAt DATETIME2`: Exact UTC ingestion timestamp.
+ - `_SourceFile NVARCHAR(260)`: Source file provenance and lineage.
 
 ### 2.2 Silver Layer (Cleansed, Typed & Enriched Relational Master)
 - **Objective:** Data type safety, null resolution, deduplication, casing standardization, and business logic conformance.
 - **Stored Procedures:** 11 dedicated stored procedures executed via master orchestrator `silver.sp_Transform_All_Silver`:
-  - `sp_Clean_AmazonOrders`: Parses `MM-DD-YY` dates, normalizes 13 fulfillment statuses, resolves null amounts.
-  - `sp_Clean_WholesaleSales`: Eliminates 1,040 embedded sub-headers, normalizes B2B account names and quantities.
-  - `sp_Clean_InventoryStock`: Standardizes SKU codes, aggregates total units on hand (242,370 units).
-  - `sp_Clean_Pricing`: Unpivots multi-channel benchmark MRPs, extracts transfer prices (`TP1`, `TP2`).
-  - `sp_Clean_Expenses`: Unifies warehouse SLA comparisons and trade fair petty cash expenses.
-  - `sp_Clean_AmazonGlobalOrders`: Standardizes global country codes, isolates 2,000 sellers, calculates standard margins.
-  - `sp_Clean_FlipkartProducts`: Cleans 32,226 catalog items into 3-tier category hierarchy (`L0`, `L1`, `L2`).
-  - `sp_Clean_FlipkartSales`: Parses 248k transactions, calculates line discounts, gross revenue, landing cost COGS, and gross margin.
-  - `sp_Clean_GoogleAds`: Resolves mixed date formats (`YYYY-MM-DD`, `DD-MM-YYYY`, `YYYY/MM/DD`), strips currency symbols (`$`), computes CTR, CPC, Cost-Per-Lead, and ROAS.
-  - `sp_Clean_FacebookAds`: Zero-imputes missing conversion metrics, computes CPC, CPM, and spend.
-  - `sp_Clean_FacebookLeads`: Cleans audience salaries and generates 4-tier lead propensity scores.
+ - `sp_Clean_AmazonOrders`: Parses `MM-DD-YY` dates, normalizes 13 fulfillment statuses, resolves null amounts.
+ - `sp_Clean_WholesaleSales`: Eliminates 1,040 embedded sub-headers, normalizes B2B account names and quantities.
+ - `sp_Clean_InventoryStock`: Standardizes SKU codes, aggregates total units on hand (242,370 units).
+ - `sp_Clean_Pricing`: Unpivots multi-channel benchmark MRPs, extracts transfer prices (`TP1`, `TP2`).
+ - `sp_Clean_Expenses`: Unifies warehouse SLA comparisons and trade fair petty cash expenses.
+ - `sp_Clean_AmazonGlobalOrders`: Standardizes global country codes, isolates 2,000 sellers, calculates standard margins.
+ - `sp_Clean_FlipkartProducts`: Cleans 32,226 catalog items into 3-tier category hierarchy (`L0`, `L1`, `L2`).
+ - `sp_Clean_FlipkartSales`: Parses 248k transactions, calculates line discounts, gross revenue, landing cost COGS, and gross margin.
+ - `sp_Clean_GoogleAds`: Resolves mixed date formats (`YYYY-MM-DD`, `DD-MM-YYYY`, `YYYY/MM/DD`), strips currency symbols (`$`), computes CTR, CPC, Cost-Per-Lead, and ROAS.
+ - `sp_Clean_FacebookAds`: Zero-imputes missing conversion metrics, computes CPC, CPM, and spend.
+ - `sp_Clean_FacebookLeads`: Cleans audience salaries and generates 4-tier lead propensity scores.
 
 ### 2.3 Gold Layer (Kimball Dimensional Star Schema)
 - **Objective:** High-performance dimensional schema designed for analytical queries, sub-second aggregations, and business intelligence dashboards.
 - **Grain Formalization:**
-  - `FactSalesOrderItems`: 1 row = 1 individual product transaction on an order line across any commerce channel.
-  - `FactMarketingPerformance`: 1 row = 1 marketing campaign keyword/device daily performance log.
-  - `FactLeadScoring`: 1 row = 1 qualified audience marketing lead profile.
-  - `FactInventorySnapshot`: 1 row = 1 physical SKU stock position in the central warehouse.
-  - `FactChannelPricing`: 1 row = 1 SKU benchmark price point on an external e-commerce channel.
-  - `FactOperationalExpenses`: 1 row = 1 operational or promotional expense item.
+ - `FactSalesOrderItems`: 1 row = 1 individual product transaction on an order line across any commerce channel.
+ - `FactMarketingPerformance`: 1 row = 1 marketing campaign keyword/device daily performance log.
+ - `FactLeadScoring`: 1 row = 1 qualified audience marketing lead profile.
+ - `FactInventorySnapshot`: 1 row = 1 physical SKU stock position in the central warehouse.
+ - `FactChannelPricing`: 1 row = 1 SKU benchmark price point on an external e-commerce channel.
+ - `FactOperationalExpenses`: 1 row = 1 operational or promotional expense item.
 
 ---
 
@@ -130,84 +130,84 @@ flowchart TD
 
 ```mermaid
 erDiagram
-    DimDate ||--o{ FactSalesOrderItems : "DateKey"
-    DimProduct ||--o{ FactSalesOrderItems : "ProductKey"
-    DimCustomer ||--o{ FactSalesOrderItems : "CustomerKey"
-    DimChannel ||--o{ FactSalesOrderItems : "ChannelKey"
-    DimFulfillment ||--o{ FactSalesOrderItems : "FulfillmentKey"
-    DimLocation ||--o{ FactSalesOrderItems : "LocationKey"
-    DimSeller ||--o{ FactSalesOrderItems : "SellerKey"
+ DimDate ||--o{ FactSalesOrderItems : "DateKey"
+ DimProduct ||--o{ FactSalesOrderItems : "ProductKey"
+ DimCustomer ||--o{ FactSalesOrderItems : "CustomerKey"
+ DimChannel ||--o{ FactSalesOrderItems : "ChannelKey"
+ DimFulfillment ||--o{ FactSalesOrderItems : "FulfillmentKey"
+ DimLocation ||--o{ FactSalesOrderItems : "LocationKey"
+ DimSeller ||--o{ FactSalesOrderItems : "SellerKey"
 
-    DimDate ||--o{ FactMarketingPerformance : "DateKey"
-    DimMarketingCampaign ||--o{ FactMarketingPerformance : "CampaignKey"
-    DimLocation ||--o{ FactMarketingPerformance : "LocationKey"
+ DimDate ||--o{ FactMarketingPerformance : "DateKey"
+ DimMarketingCampaign ||--o{ FactMarketingPerformance : "CampaignKey"
+ DimLocation ||--o{ FactMarketingPerformance : "LocationKey"
 
-    DimDate ||--o{ FactLeadScoring : "DateKey"
-    DimCustomer ||--o{ FactLeadScoring : "CustomerKey"
-    DimLocation ||--o{ FactLeadScoring : "LocationKey"
+ DimDate ||--o{ FactLeadScoring : "DateKey"
+ DimCustomer ||--o{ FactLeadScoring : "CustomerKey"
+ DimLocation ||--o{ FactLeadScoring : "LocationKey"
 
-    DimDate ||--o{ FactInventorySnapshot : "SnapshotDateKey"
-    DimProduct ||--o{ FactInventorySnapshot : "ProductKey"
+ DimDate ||--o{ FactInventorySnapshot : "SnapshotDateKey"
+ DimProduct ||--o{ FactInventorySnapshot : "ProductKey"
 
-    DimProduct ||--o{ FactChannelPricing : "ProductKey"
-    DimChannel ||--o{ FactChannelPricing : "ChannelKey"
+ DimProduct ||--o{ FactChannelPricing : "ProductKey"
+ DimChannel ||--o{ FactChannelPricing : "ChannelKey"
 
-    DimDate ||--o{ FactOperationalExpenses : "ExpenseDateKey"
+ DimDate ||--o{ FactOperationalExpenses : "ExpenseDateKey"
 
-    FactSalesOrderItems {
-        BIGINT SalesOrderItemKey PK
-        NVARCHAR OrderID
-        INT DateKey FK
-        INT ProductKey FK
-        INT CustomerKey FK
-        INT ChannelKey FK
-        INT FulfillmentKey FK
-        INT LocationKey FK
-        INT SellerKey FK
-        INT Quantity
-        DECIMAL UnitPrice
-        DECIMAL GrossAmount
-        DECIMAL PromotionDiscount
-        DECIMAL TaxAmount
-        DECIMAL ShippingAmount
-        DECIMAL NetAmount
-        DECIMAL EstimatedUnitCost
-        DECIMAL EstimatedGrossMargin
-        BIT IsCancelled
-        BIT IsShipped
-        BIT IsDelivered
-        BIT IsReturned
-        BIT IsB2B
-        NVARCHAR PaymentMethod
-        NVARCHAR SourceSystem
-    }
+ FactSalesOrderItems {
+ BIGINT SalesOrderItemKey PK
+ NVARCHAR OrderID
+ INT DateKey FK
+ INT ProductKey FK
+ INT CustomerKey FK
+ INT ChannelKey FK
+ INT FulfillmentKey FK
+ INT LocationKey FK
+ INT SellerKey FK
+ INT Quantity
+ DECIMAL UnitPrice
+ DECIMAL GrossAmount
+ DECIMAL PromotionDiscount
+ DECIMAL TaxAmount
+ DECIMAL ShippingAmount
+ DECIMAL NetAmount
+ DECIMAL EstimatedUnitCost
+ DECIMAL EstimatedGrossMargin
+ BIT IsCancelled
+ BIT IsShipped
+ BIT IsDelivered
+ BIT IsReturned
+ BIT IsB2B
+ NVARCHAR PaymentMethod
+ NVARCHAR SourceSystem
+ }
 
-    FactMarketingPerformance {
-        INT MarketingFactKey PK
-        INT DateKey FK
-        INT CampaignKey FK
-        INT LocationKey FK
-        INT Impressions
-        INT Clicks
-        DECIMAL SpendAmount
-        INT Leads
-        INT Conversions
-        DECIMAL RevenueGenerated
-        DECIMAL CTR_Pct
-        DECIMAL CPC
-        DECIMAL ROAS
-    }
+ FactMarketingPerformance {
+ INT MarketingFactKey PK
+ INT DateKey FK
+ INT CampaignKey FK
+ INT LocationKey FK
+ INT Impressions
+ INT Clicks
+ DECIMAL SpendAmount
+ INT Leads
+ INT Conversions
+ DECIMAL RevenueGenerated
+ DECIMAL CTR_Pct
+ DECIMAL CPC
+ DECIMAL ROAS
+ }
 
-    FactLeadScoring {
-        INT LeadFactKey PK
-        INT CustomerKey FK
-        INT LocationKey FK
-        DECIMAL TimeSpentOnSite
-        DECIMAL Salary
-        BIT Clicked
-        NVARCHAR LeadQualityTier
-        INT LeadScore
-    }
+ FactLeadScoring {
+ INT LeadFactKey PK
+ INT CustomerKey FK
+ INT LocationKey FK
+ DECIMAL TimeSpentOnSite
+ DECIMAL Salary
+ BIT Clicked
+ NVARCHAR LeadQualityTier
+ INT LeadScore
+ }
 ```
 
 ---

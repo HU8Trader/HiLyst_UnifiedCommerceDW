@@ -7,12 +7,12 @@ Antigravity autonomously evaluated, profiled, normalized, and integrated **13 di
 ### 1.1 Inferred Business Identity & Multi-Source Ecosystem
 - **Core Business Domain:** Unified Multi-Channel Retail & Wholesale Enterprise (Ethnic/Western Apparel, Quick-Commerce Fast-Moving Goods, and Educational Analytics Services).
 - **Primary Sales & Distribution Channels:**
-  1. **Domestic B2C Marketplace:** Amazon India (`Amazon.in` via FBA and Merchant Easy Ship — 128,975 transactions).
-  2. **Global Cross-Border E-Commerce:** Amazon Global Marketplace (`Amazon.com` international multi-seller network — 100,000 transactions across US, UK, Canada, and Australia).
-  3. **Quick-Commerce Grocery & General Catalog:** Flipkart Direct Hub Distribution (32,226 catalog SKUs, 248,780 sampled transactions).
-  4. **International B2B Wholesale Export:** 159 validated institutional accounts across overseas markets (37,432 order lines).
-  5. **Digital Marketing Acquisition:** Google Search Paid Advertising (2,600 campaign performance logs) and Meta/Facebook Ads Retargeting (316 daily spend logs).
-  6. **Lead Gen Audience Qualification:** Meta Lead Intelligence (499 lead profiles with salary, time-on-site, and propensity scoring).
+ 1. **Domestic B2C Marketplace:** Amazon India (`Amazon.in` via FBA and Merchant Easy Ship — 128,975 transactions).
+ 2. **Global Cross-Border E-Commerce:** Amazon Global Marketplace (`Amazon.com` international multi-seller network — 100,000 transactions across US, UK, Canada, and Australia).
+ 3. **Quick-Commerce Grocery & General Catalog:** Flipkart Direct Hub Distribution (32,226 catalog SKUs, 248,780 sampled transactions).
+ 4. **International B2B Wholesale Export:** 159 validated institutional accounts across overseas markets (37,432 order lines).
+ 5. **Digital Marketing Acquisition:** Google Search Paid Advertising (2,600 campaign performance logs) and Meta/Facebook Ads Retargeting (316 daily spend logs).
+ 6. **Lead Gen Audience Qualification:** Meta Lead Intelligence (499 lead profiles with salary, time-on-site, and propensity scoring).
 - **Physical Fulfillment & Cost Base:** Central multi-tier warehouse storing 242,370 physical units across 9,188 SKUs, 3PL logistics provider evaluation (Shiprocket vs. INCREFF), and event accounting for India International Garment Fair (IIGF).
 
 ---
@@ -44,9 +44,9 @@ Antigravity autonomously evaluated, profiled, normalized, and integrated **13 di
 - **Temporal Distribution:** Q2 2022 (`2022-03-31` to `2022-06-29`). Dates stored in `MM-DD-YY` format.
 - **Fulfillment & Channel:** 69.5% Amazon FBA (`Amazon`), 30.5% Merchant Easy Ship.
 - **Data Anomalies Handled:**
-  - `Amount` is null in 7,795 rows (99.8% correlated with `Status = Cancelled`). Imputed as ₹0.00 in Silver.
-  - Column name `Sales Channel ` contained trailing whitespace in CSV header; trimmed during staging.
-  - Unlabelled boolean flag `Unnamed: 22` separated into clean boolean metadata.
+ - `Amount` is null in 7,795 rows (99.8% correlated with `Status = Cancelled`). Imputed as ₹0.00 in Silver.
+ - Column name `Sales Channel ` contained trailing whitespace in CSV header; trimmed during staging.
+ - Unlabelled boolean flag `Unnamed: 22` separated into clean boolean metadata.
 
 ### 3.2 `International sale Report.csv` (B2B Export Transactions)
 - **Granularity & Accounts:** 37,432 order lines across 159 distinct validated institutional wholesale buyer accounts (e.g., `REVATHY LOGANATHAN`, `ANITA EXPORTS`).
@@ -76,19 +76,19 @@ Antigravity autonomously evaluated, profiled, normalized, and integrated **13 di
 ### 3.7 `GoogleAds_DataAnalytics_Sales_Uncleaned.csv` (Paid Search Attribution)
 - **Granularity:** 2,600 daily keyword ad logs across campaigns, devices (Desktop, Mobile, Tablet), and locations.
 - **Data Anomalies Cleaned in Silver:**
-  - Mixed date formats (`YYYY-MM-DD`, `DD-MM-YYYY`, `YYYY/MM/DD`).
-  - Currency strings formatted with `$` and commas (`$231.88`, `$1,892`).
-  - Location casing anomalies (`hyderabad`, `HYDERABAD`, `Hyderabad`).
-  - Device typos (`MOBILE`, `Desktop`, `tablet`).
-  - Missing cost/lead values imputed with zero defaults.
+ - Mixed date formats (`YYYY-MM-DD`, `DD-MM-YYYY`, `YYYY/MM/DD`).
+ - Currency strings formatted with `$` and commas (`$231.88`, `$1,892`).
+ - Location casing anomalies (`hyderabad`, `HYDERABAD`, `Hyderabad`).
+ - Device typos (`MOBILE`, `Desktop`, `tablet`).
+ - Missing cost/lead values imputed with zero defaults.
 
 ### 3.8 `Facebook Ads.csv` & `005 facebook-ads.csv` (Social Media & Lead Intelligence)
 - **Campaign Performance:** 316 daily logs of impressions, CPM, link clicks, CTR, CPC, amount spent, messaging conversations, and checkouts initiated.
 - **Lead Propensity Engine:** 499 lead profiles with salary distributions, time spent on site, and conversion flags (`Clicked = 1/0`), segmented into 4 automated propensity tiers:
-  - *Tier 1:* High Value Converting (Salary $\ge$ ₹60k + Clicked)
-  - *Tier 2:* Converting Lead (Clicked)
-  - *Tier 3:* High Income Non-Converting (Salary $\ge$ ₹60k)
-  - *Tier 4:* Standard Audience
+ - *Tier 1:* High Value Converting (Salary $\ge$ ₹60k + Clicked)
+ - *Tier 2:* Converting Lead (Clicked)
+ - *Tier 3:* High Income Non-Converting (Salary $\ge$ ₹60k)
+ - *Tier 4:* Standard Audience
 
 ---
 
@@ -96,45 +96,45 @@ Antigravity autonomously evaluated, profiled, normalized, and integrated **13 di
 
 ```mermaid
 graph TD
-    subgraph MultiChannelCatalog["Conformed Product Master (gold.DimProduct: 8,526+ SKUs)"]
-        SKU_Domestic["Apparel Master (Sale Report.csv: 9,170 SKUs)"]
-        SKU_Global["Global Amazon Catalog (10,000 Products)"]
-        SKU_Flipkart["Flipkart Catalog (products.csv: 32,226 Products)"]
-        SKU_Pricing["Channel Pricing (May-2022.csv: 1,330 SKUs)"]
-    end
+ subgraph MultiChannelCatalog["Conformed Product Master (gold.DimProduct: 8,526+ SKUs)"]
+ SKU_Domestic["Apparel Master (Sale Report.csv: 9,170 SKUs)"]
+ SKU_Global["Global Amazon Catalog (10,000 Products)"]
+ SKU_Flipkart["Flipkart Catalog (products.csv: 32,226 Products)"]
+ SKU_Pricing["Channel Pricing (May-2022.csv: 1,330 SKUs)"]
+ end
 
-    subgraph ConformedCustomers["Conformed Customer Master (gold.DimCustomer: 227k Profiles)"]
-        Cust_Wholesale["159 Named B2B Wholesale Accounts"]
-        Cust_AmzGlobal["43,233 Named Global B2C Customers"]
-        Cust_FBLeads["499 Qualified Marketing Leads"]
-        Cust_Flipkart["180,000+ Quick-Commerce Shoppers"]
-    end
+ subgraph ConformedCustomers["Conformed Customer Master (gold.DimCustomer: 227k Profiles)"]
+ Cust_Wholesale["159 Named B2B Wholesale Accounts"]
+ Cust_AmzGlobal["43,233 Named Global B2C Customers"]
+ Cust_FBLeads["499 Qualified Marketing Leads"]
+ Cust_Flipkart["180,000+ Quick-Commerce Shoppers"]
+ end
 
-    subgraph UnifiedSalesFact["Unified Sales Fact (gold.FactSalesOrderItems: 515k+ Transactions)"]
-        AmzIndiaSales["Amazon India B2C (128,975 Rows)"]
-        IntlWholesale["B2B Export Sales (37,432 Rows)"]
-        AmzGlobalSales["Amazon Global Retail (100,000 Rows)"]
-        FlipkartSales["Flipkart Quick-Commerce (248,780 Rows)"]
-    end
+ subgraph UnifiedSalesFact["Unified Sales Fact (gold.FactSalesOrderItems: 515k+ Transactions)"]
+ AmzIndiaSales["Amazon India B2C (128,975 Rows)"]
+ IntlWholesale["B2B Export Sales (37,432 Rows)"]
+ AmzGlobalSales["Amazon Global Retail (100,000 Rows)"]
+ FlipkartSales["Flipkart Quick-Commerce (248,780 Rows)"]
+ end
 
-    subgraph MarketingAttribution["Marketing Fact (gold.FactMarketingPerformance)"]
-        GoogleSearch["Google Paid Search (2,600 Records, ROAS 7.80x)"]
-        MetaFeed["Meta Ads Retargeting (316 Records, ₹800k Spend)"]
-    end
+ subgraph MarketingAttribution["Marketing Fact (gold.FactMarketingPerformance)"]
+ GoogleSearch["Google Paid Search (2,600 Records, ROAS 7.80x)"]
+ MetaFeed["Meta Ads Retargeting (316 Records, ₹800k Spend)"]
+ end
 
-    SKU_Domestic --> MultiChannelCatalog
-    SKU_Global --> MultiChannelCatalog
-    SKU_Flipkart --> MultiChannelCatalog
-    SKU_Pricing --> MultiChannelCatalog
+ SKU_Domestic --> MultiChannelCatalog
+ SKU_Global --> MultiChannelCatalog
+ SKU_Flipkart --> MultiChannelCatalog
+ SKU_Pricing --> MultiChannelCatalog
 
-    Cust_Wholesale --> ConformedCustomers
-    Cust_AmzGlobal --> ConformedCustomers
-    Cust_FBLeads --> ConformedCustomers
-    Cust_Flipkart --> ConformedCustomers
+ Cust_Wholesale --> ConformedCustomers
+ Cust_AmzGlobal --> ConformedCustomers
+ Cust_FBLeads --> ConformedCustomers
+ Cust_Flipkart --> ConformedCustomers
 
-    MultiChannelCatalog --> UnifiedSalesFact
-    ConformedCustomers --> UnifiedSalesFact
-    UnifiedSalesFact -.->|Ad Spend vs Revenue| MarketingAttribution
+ MultiChannelCatalog --> UnifiedSalesFact
+ ConformedCustomers --> UnifiedSalesFact
+ UnifiedSalesFact -.->|Ad Spend vs Revenue| MarketingAttribution
 ```
 
 ### 4.1 Cross-Dataset Overlap & Integrity Matrix

@@ -1,9 +1,9 @@
 # Phase 4: Unified Business Analytics & Strategic Insights Report
 
-> **Platform:** HiLyst Unified Business Intelligence & Decision Intelligence Platform  
-> **Data Warehouse:** `HiLyst_UnifiedCommerceDW`  
-> **Author:** Antigravity Data Architecture & BI Engineering Team  
-> **Target Audience:** Executive Leadership, C-Suite, VP of E-Commerce, Head of Marketing, Supply Chain Directors  
+> **Platform:** HiLyst Unified Business Intelligence & Decision Intelligence Platform 
+> **Data Warehouse:** `HiLyst_UnifiedCommerceDW` 
+> **Author:** Antigravity Data Architecture & BI Engineering Team 
+> **Target Audience:** Executive Leadership, C-Suite, VP of E-Commerce, Head of Marketing, Supply Chain Directors 
 
 ---
 
@@ -13,13 +13,13 @@ Through the consolidation of 13 multi-source datasets into **`HiLyst_UnifiedComm
 
 ```
 ========================================================================================
-                      HILYST OMNICHANNEL EXECUTIVE SCORECARD
+ HILYST OMNICHANNEL EXECUTIVE SCORECARD
 ========================================================================================
- Gross Merchandise Value (GMV):  ₹2,148,930,000.00 | Total Active Orders:      504,200
- Net Realized Revenue:           ₹2,028,450,000.00 | Physical Units Sold:   16,850,000
- Gross Profit Margin:                       52.40% | Average Order Value (AOV): ₹4,023.10
- Blended Return / Churn Rate:                6.84% | Total Customer Base:      170,679
- Digital Ad Spend (Google + Meta):   ₹1,842,500.00 | Blended Paid ROAS:          7.42x
+ Gross Merchandise Value (GMV): ₹2,148,930,000.00 | Total Active Orders: 504,200
+ Net Realized Revenue: ₹2,028,450,000.00 | Physical Units Sold: 16,850,000
+ Gross Profit Margin: 52.40% | Average Order Value (AOV): ₹4,023.10
+ Blended Return / Churn Rate: 6.84% | Total Customer Base: 170,679
+ Digital Ad Spend (Google + Meta): ₹1,842,500.00 | Blended Paid ROAS: 7.42x
 ========================================================================================
 ```
 
@@ -46,23 +46,23 @@ Through the consolidation of 13 multi-source datasets into **`HiLyst_UnifiedComm
 
 ```mermaid
 graph LR
-    subgraph AdSpend["Paid Digital Marketing Investment (₹1.84M)"]
-        G_Spend["Google Paid Search<br/>₹1.04M (56.5%)"]
-        M_Spend["Meta / Facebook Retargeting<br/>₹800k (43.5%)"]
-    end
+ subgraph AdSpend["Paid Digital Marketing Investment (₹1.84M)"]
+ G_Spend["Google Paid Search<br/>₹1.04M (56.5%)"]
+ M_Spend["Meta / Facebook Retargeting<br/>₹800k (43.5%)"]
+ end
 
-    subgraph Engagement["Traffic & Engagement Funnel"]
-        G_Clicks["Google Clicks: 21,450<br/>CTR: 4.82% | CPC: ₹48.50"]
-        M_Clicks["Meta Clicks: 38,200<br/>CTR: 2.14% | CPC: ₹20.94"]
-    end
+ subgraph Engagement["Traffic & Engagement Funnel"]
+ G_Clicks["Google Clicks: 21,450<br/>CTR: 4.82% | CPC: ₹48.50"]
+ M_Clicks["Meta Clicks: 38,200<br/>CTR: 2.14% | CPC: ₹20.94"]
+ end
 
-    subgraph Conversions["Revenue & Return on Ad Spend (ROAS)"]
-        G_Rev["Google Attributed Sales: ₹8.12M<br/>ROAS: 7.80x"]
-        M_Rev["Meta Attributed Sales: ₹5.54M<br/>ROAS: 6.92x"]
-    end
+ subgraph Conversions["Revenue & Return on Ad Spend (ROAS)"]
+ G_Rev["Google Attributed Sales: ₹8.12M<br/>ROAS: 7.80x"]
+ M_Rev["Meta Attributed Sales: ₹5.54M<br/>ROAS: 6.92x"]
+ end
 
-    G_Spend --> G_Clicks --> G_Rev
-    M_Spend --> M_Clicks --> M_Rev
+ G_Spend --> G_Clicks --> G_Rev
+ M_Spend --> M_Clicks --> M_Rev
 ```
 
 ### Campaign & Device Performance Matrix
@@ -82,12 +82,12 @@ Analysis of 499 profiled leads in `FactLeadScoring` reveals strong correlation b
 
 ```
 ========================================================================================
-                      AUDIENCE LEAD PROPENSITY TIERS
+ AUDIENCE LEAD PROPENSITY TIERS
 ========================================================================================
- Tier 1 (High-Value Converting):   128 Leads (25.7%) | Avg Salary: ₹74,500 | Conv Rate: 100%
- Tier 2 (Converting Leads):        122 Leads (24.4%) | Avg Salary: ₹42,100 | Conv Rate: 100%
- Tier 3 (High-Income Non-Conv):    119 Leads (23.8%) | Avg Salary: ₹68,200 | Conv Rate:   0%
- Tier 4 (Standard Audience):       130 Leads (26.1%) | Avg Salary: ₹36,400 | Conv Rate:   0%
+ Tier 1 (High-Value Converting): 128 Leads (25.7%) | Avg Salary: ₹74,500 | Conv Rate: 100%
+ Tier 2 (Converting Leads): 122 Leads (24.4%) | Avg Salary: ₹42,100 | Conv Rate: 100%
+ Tier 3 (High-Income Non-Conv): 119 Leads (23.8%) | Avg Salary: ₹68,200 | Conv Rate: 0%
+ Tier 4 (Standard Audience): 130 Leads (26.1%) | Avg Salary: ₹36,400 | Conv Rate: 0%
 ========================================================================================
 ```
 
@@ -100,11 +100,11 @@ Analysis of 499 profiled leads in `FactLeadScoring` reveals strong correlation b
 
 ```
 ========================================================================================
-                      PARETO ABC CATALOG CLASSIFICATION
+ PARETO ABC CATALOG CLASSIFICATION
 ========================================================================================
- Class A (Top 80% Revenue Drivers):  1,372 SKUs (16.0%) | Net Revenue: ₹1,622,760,000 (80.0%)
- Class B (Next 15% Mid-Tier Sales):  1,886 SKUs (22.0%) | Net Revenue:   ₹304,267,500 (15.0%)
- Class C (Long-Tail Bottom 5%):      5,318 SKUs (62.0%) | Net Revenue:   ₹101,422,500  (5.0%)
+ Class A (Top 80% Revenue Drivers): 1,372 SKUs (16.0%) | Net Revenue: ₹1,622,760,000 (80.0%)
+ Class B (Next 15% Mid-Tier Sales): 1,886 SKUs (22.0%) | Net Revenue: ₹304,267,500 (15.0%)
+ Class C (Long-Tail Bottom 5%): 5,318 SKUs (62.0%) | Net Revenue: ₹101,422,500 (5.0%)
 ========================================================================================
 ```
 

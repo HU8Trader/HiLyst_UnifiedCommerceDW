@@ -47,17 +47,17 @@ os.makedirs(post_dir, exist_ok=True)
 
 txt_path = os.path.join(post_dir, "linkedin_post.txt")
 with open(txt_path, "w", encoding="utf-8") as f:
-    f.write(cleaned_text)
+ f.write(cleaned_text)
 
 md_path = os.path.join(post_dir, "README.md")
 with open(md_path, "w", encoding="utf-8") as f:
-    f.write("# LinkedIn Post Assets and Copy\n\n")
-    f.write("## Post Content (Character Count: " + str(char_count) + " / 3000 max)\n\n")
-    f.write("```text\n")
-    f.write(cleaned_text)
-    f.write("\n```\n\n")
-    f.write("---\n\n")
-    f.write("## Attached Media Assets\n\n")
-    f.write("- `Dashboard Screenshots/dashboard_overview.png` - High-resolution executive dashboard visual.\n")
+ f.write("# LinkedIn Post Assets and Copy\n\n")
+ f.write("## Post Content (Character Count: " + str(char_count) + " / 3000 max)\n\n")
+ f.write("```text\n")
+ f.write(cleaned_text)
+ f.write("\n```\n\n")
+ f.write("---\n\n")
+ f.write("## Attached Media Assets\n\n")
+ f.write("- `Dashboard Screenshots/dashboard_overview.png` - High-resolution executive dashboard visual.\n")
 
 print(f"Saved: {txt_path} and {md_path}")

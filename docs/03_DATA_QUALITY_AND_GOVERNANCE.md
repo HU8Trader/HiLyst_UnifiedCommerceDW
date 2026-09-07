@@ -33,35 +33,35 @@ The data warehouse embeds an automated, stored-procedure-based Data Quality fram
 
 ```mermaid
 flowchart LR
-    subgraph RawAnomalies["Detected Ingestion Anomalies"]
-        A1["Mixed Dates (Google Ads / Amazon)"]
-        A2["Corrupted Sub-Headers (Wholesale CSV)"]
-        A3["Currency Strings with $ (Google Ads)"]
-        A4["Null Amounts on Cancelled Orders"]
-        A5["Floating Pincodes (400081.0)"]
-    end
+ subgraph RawAnomalies["Detected Ingestion Anomalies"]
+ A1["Mixed Dates (Google Ads / Amazon)"]
+ A2["Corrupted Sub-Headers (Wholesale CSV)"]
+ A3["Currency Strings with $ (Google Ads)"]
+ A4["Null Amounts on Cancelled Orders"]
+ A5["Floating Pincodes (400081.0)"]
+ end
 
-    subgraph SilverPlaybook["Automated Silver Remediation"]
-        R1["Multi-format TRY_CONVERT (ISO / DD-MM-YYYY)"]
-        R2["Strict WHERE predicate on Header Strings"]
-        R3["REPLACE & TRY_CAST to DECIMAL(18,2)"]
-        R4["ISNULL default & OrderCategoryStatus tagging"]
-        R5["SUBSTRING & Integer casting"]
-    end
+ subgraph SilverPlaybook["Automated Silver Remediation"]
+ R1["Multi-format TRY_CONVERT (ISO / DD-MM-YYYY)"]
+ R2["Strict WHERE predicate on Header Strings"]
+ R3["REPLACE & TRY_CAST to DECIMAL(18,2)"]
+ R4["ISNULL default & OrderCategoryStatus tagging"]
+ R5["SUBSTRING & Integer casting"]
+ end
 
-    subgraph GoldTarget["Clean Gold Star Schema"]
-        G1["DimDate Key (YYYYMMDD)"]
-        G2["Clean Transactional Facts"]
-        G3["FactMarketingPerformance (ROAS 7.80x)"]
-        G4["FactSales (Gross Intent vs Net Realized)"]
-        G5["DimLocation (14,576 Valid Postal Codes)"]
-    end
+ subgraph GoldTarget["Clean Gold Star Schema"]
+ G1["DimDate Key (YYYYMMDD)"]
+ G2["Clean Transactional Facts"]
+ G3["FactMarketingPerformance (ROAS 7.80x)"]
+ G4["FactSales (Gross Intent vs Net Realized)"]
+ G5["DimLocation (14,576 Valid Postal Codes)"]
+ end
 
-    A1 --> R1 --> G1
-    A2 --> R2 --> G2
-    A3 --> R3 --> G3
-    A4 --> R4 --> G4
-    A5 --> R5 --> G5
+ A1 --> R1 --> G1
+ A2 --> R2 --> G2
+ A3 --> R3 --> G3
+ A4 --> R4 --> G4
+ A5 --> R5 --> G5
 ```
 
 ---
@@ -70,29 +70,29 @@ flowchart LR
 
 ```mermaid
 graph TD
-    subgraph SecurityPrincipals["Security Principals & Roles"]
-        R_ETL["ETL Service Principal (db_datawriter)"]
-        R_BI["BI & Analytics Developers (db_datareader)"]
-        R_AI["HiLyst AI Agent (db_analytics_readonly)"]
-        R_EXEC["Executive Suite (Executive Dashboard Role)"]
-    end
+ subgraph SecurityPrincipals["Security Principals & Roles"]
+ R_ETL["ETL Service Principal (db_datawriter)"]
+ R_BI["BI & Analytics Developers (db_datareader)"]
+ R_AI["HiLyst AI Agent (db_analytics_readonly)"]
+ R_EXEC["Executive Suite (Executive Dashboard Role)"]
+ end
 
-    subgraph MedallionSchemas["Database Schemas & Permissions"]
-        S_Bronze["bronze Schema (Full DDL/DML - Restricted to ETL)"]
-        S_Silver["silver Schema (ETL Execution & Cleansing)"]
-        S_Gold["gold Schema (Read-Only Dimensional Model)"]
-        S_Analytics["analytics Schema (Governed Semantic Views)"]
-    end
+ subgraph MedallionSchemas["Database Schemas & Permissions"]
+ S_Bronze["bronze Schema (Full DDL/DML - Restricted to ETL)"]
+ S_Silver["silver Schema (ETL Execution & Cleansing)"]
+ S_Gold["gold Schema (Read-Only Dimensional Model)"]
+ S_Analytics["analytics Schema (Governed Semantic Views)"]
+ end
 
-    R_ETL --> S_Bronze
-    R_ETL --> S_Silver
-    R_ETL --> S_Gold
+ R_ETL --> S_Bronze
+ R_ETL --> S_Silver
+ R_ETL --> S_Gold
 
-    R_BI --> S_Gold
-    R_BI --> S_Analytics
+ R_BI --> S_Gold
+ R_BI --> S_Analytics
 
-    R_AI --> S_Analytics
-    R_EXEC --> S_Analytics
+ R_AI --> S_Analytics
+ R_EXEC --> S_Analytics
 ```
 
 ### 3.1 Governance Guardrails & Principle of Least Privilege

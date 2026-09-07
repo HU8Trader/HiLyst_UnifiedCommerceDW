@@ -1,10 +1,10 @@
 # Phase 8 — Enterprise Semantic Metric Catalog (Single Source of Truth)
 
-> **Platform:** HiLyst Unified Business Intelligence & Decision Intelligence Platform  
-> **Data Warehouse:** `HiLyst_UnifiedCommerceDW`  
-> **Schema:** `analytics` & `gold`  
-> **Author:** Antigravity Analytics Engineering & Semantic Layer Team  
-> **Date:** September 2026  
+> **Platform:** HiLyst Unified Business Intelligence & Decision Intelligence Platform 
+> **Data Warehouse:** `HiLyst_UnifiedCommerceDW` 
+> **Schema:** `analytics` & `gold` 
+> **Author:** Antigravity Analytics Engineering & Semantic Layer Team 
+> **Date:** September 2026 
 
 ---
 
@@ -14,36 +14,36 @@ The HiLyst Metric Catalog establishes strict metric definitions to prevent metri
 
 ```mermaid
 graph TD
-    subgraph GoldFacts["Underlying Star Schema Facts"]
-        F1["gold.FactSalesOrderItems"]
-        F2["gold.FactMarketingPerformance"]
-        F3["gold.FactLeadScoring"]
-        F4["gold.FactInventorySnapshot"]
-        F5["gold.FactChannelPricing"]
-        F6["gold.FactOperationalExpenses"]
-    end
+ subgraph GoldFacts["Underlying Star Schema Facts"]
+ F1["gold.FactSalesOrderItems"]
+ F2["gold.FactMarketingPerformance"]
+ F3["gold.FactLeadScoring"]
+ F4["gold.FactInventorySnapshot"]
+ F5["gold.FactChannelPricing"]
+ F6["gold.FactOperationalExpenses"]
+ end
 
-    subgraph SemanticLayer["Governed Semantic Views (analytics Schema)"]
-        V1["analytics.vw_ExecutiveKPIs"]
-        V2["analytics.vw_DailySalesSummary"]
-        V3["analytics.vw_ChannelProfitability"]
-        V4["analytics.vw_MarketingIntelligence"]
-        V5["analytics.vw_ProductPerformance"]
-        V6["analytics.vw_CustomerRFM"]
-        V7["analytics.vw_CrossChannelArbitrage"]
-        V8["analytics.vw_InventoryHealth"]
-        V9["analytics.vw_GeographicIntelligence"]
-        V10["analytics.vw_AIDecisionInsights"]
-    end
+ subgraph SemanticLayer["Governed Semantic Views (analytics Schema)"]
+ V1["analytics.vw_ExecutiveKPIs"]
+ V2["analytics.vw_DailySalesSummary"]
+ V3["analytics.vw_ChannelProfitability"]
+ V4["analytics.vw_MarketingIntelligence"]
+ V5["analytics.vw_ProductPerformance"]
+ V6["analytics.vw_CustomerRFM"]
+ V7["analytics.vw_CrossChannelArbitrage"]
+ V8["analytics.vw_InventoryHealth"]
+ V9["analytics.vw_GeographicIntelligence"]
+ V10["analytics.vw_AIDecisionInsights"]
+ end
 
-    subgraph ConsumptionEndpoints["Downstream Analytical Consumers"]
-        BI["HiLyst Web App & Executive Dashboards"]
-        NLQ["HiLyst AI Natural Language Query Engine"]
-        Alerts["Autonomous Decision Alert System"]
-    end
+ subgraph ConsumptionEndpoints["Downstream Analytical Consumers"]
+ BI["HiLyst Web App & Executive Dashboards"]
+ NLQ["HiLyst AI Natural Language Query Engine"]
+ Alerts["Autonomous Decision Alert System"]
+ end
 
-    GoldFacts --> SemanticLayer
-    SemanticLayer --> ConsumptionEndpoints
+ GoldFacts --> SemanticLayer
+ SemanticLayer --> ConsumptionEndpoints
 ```
 
 ---
