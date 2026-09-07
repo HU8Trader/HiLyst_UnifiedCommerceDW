@@ -18,3 +18,7 @@ ENV/
 # OS specific files
 Thumbs.db
 .DS_Store
+
+# Scratch and temporary tools
+scratch/
+*.log

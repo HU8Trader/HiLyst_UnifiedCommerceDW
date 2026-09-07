@@ -1,12 +1,13 @@
 ChannelKey,ChannelName,Platform,ChannelType,CreatedDate
-1,Amazon.in,Amazon,Marketplace,2026-09-06T03:33:58.407448
-2,Amazon FBA,Amazon,Marketplace,2026-09-06T03:33:58.407448
-3,Non-Amazon,Direct/Other,Direct,2026-09-06T03:33:58.407448
-4,International Wholesale B2B,Direct Export,Wholesale B2B,2026-09-06T03:33:58.407448
-5,Ajio,Reliance Ajio,Marketplace,2026-09-06T03:33:58.407448
-6,Flipkart,Flipkart,Marketplace,2026-09-06T03:33:58.407448
-7,Myntra,Myntra,Marketplace,2026-09-06T03:33:58.407448
-8,Paytm,Paytm Mall,Marketplace,2026-09-06T03:33:58.407448
-9,Snapdeal,Snapdeal,Marketplace,2026-09-06T03:33:58.407448
-10,Limeroad,Limeroad,Marketplace,2026-09-06T03:33:58.407448
-11,Central Warehouse,Internal WMS,Internal,2026-09-06T03:33:58.407448
+1,Amazon India B2C,Amazon,Marketplace,2026-09-07T07:47:31.385926
+2,Amazon Global Direct,Amazon,Marketplace,2026-09-07T07:47:31.385926
+3,International Wholesale B2B,Wholesale,Wholesale B2B,2026-09-07T07:47:31.385926
+4,Flipkart Quick-Commerce,Flipkart,Marketplace,2026-09-07T07:47:31.385926
+5,Shopify Direct D2C,Shopify,Direct,2026-09-07T07:47:31.385926
+6,Myntra Fashion,Myntra,Marketplace,2026-09-07T07:47:31.385926
+7,Ajio Fashion,Ajio,Marketplace,2026-09-07T07:47:31.385926
+8,Limeroad Fashion,Limeroad,Marketplace,2026-09-07T07:47:31.385926
+9,Paytm Mall,Paytm,Marketplace,2026-09-07T07:47:31.385926
+10,Snapdeal Marketplace,Snapdeal,Marketplace,2026-09-07T07:47:31.385926
+11,Google Ads Paid Search,Google Ads,Paid Search,2026-09-07T07:47:31.385926
+12,Meta / Facebook Ads,Meta Ads,Social Ad,2026-09-07T07:47:31.385926

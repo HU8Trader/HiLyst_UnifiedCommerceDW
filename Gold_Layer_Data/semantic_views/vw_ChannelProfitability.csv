@@ -1,0 +1,13 @@
+ChannelKey,ChannelName,Platform,ChannelType,TotalOrders,ValidOrders,TotalUnitsSold,GrossRevenue,NetRevenue,RevenueContributionPct,CancellationRatePct,TotalEstimatedGrossMargin,GrossMarginPct
+1,Amazon India B2C,Amazon,Marketplace,120378,103193,116649,78592678.30,71673394.00,36.930000,14.28,39297558.40,50.000000
+11,Google Ads Paid Search,Google Ads,Paid Search,0,0,,,0.00,,0.0,0.00,0.000000
+4,Flipkart Quick-Commerce,Flipkart,Marketplace,145051,145051,327952,26024762.00,25906210.00,12.230000,0.0,2973964.04,11.430000
+3,International Wholesale B2B,Wholesale,Wholesale B2B,37432,37432,37432,16395599.19,16395599.19,7.700000,0.0,4039937.07,24.640000
+5,Shopify Direct D2C,Shopify,Direct,0,0,,,0.00,,0.0,0.00,0.000000
+9,Paytm Mall,Paytm,Marketplace,0,0,,,0.00,,0.0,0.00,0.000000
+12,Meta / Facebook Ads,Meta Ads,Social Ad,0,0,,,0.00,,0.0,0.00,0.000000
+2,Amazon Global Direct,Amazon,Marketplace,100000,96972,300140,91825647.92,88974525.53,43.140000,3.03,40461007.24,44.060000
+8,Limeroad Fashion,Limeroad,Marketplace,0,0,,,0.00,,0.0,0.00,0.000000
+6,Myntra Fashion,Myntra,Marketplace,0,0,,,0.00,,0.0,0.00,0.000000
+7,Ajio Fashion,Ajio,Marketplace,0,0,,,0.00,,0.0,0.00,0.000000
+10,Snapdeal Marketplace,Snapdeal,Marketplace,0,0,,,0.00,,0.0,0.00,0.000000

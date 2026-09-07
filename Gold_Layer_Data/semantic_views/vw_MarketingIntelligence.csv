@@ -1,0 +1,5 @@
+AdPlatform,CampaignName,ChannelType,DeviceType,TargetLocation,TotalImpressions,TotalClicks,TotalAdSpend,TotalLeadsGenerated,TotalConversions,AttributedRevenue,AverageCTR_Pct,AverageCPC,CostPerLead,CostPerConversion,OverallROAS
+Meta Ads,Meta Retargeting & Brand Awareness,Social Feed,Mobile & Desktop,Global,74574,463,2819.85,60,42,60900.00,0.6209,6.090000,47.000000,67.140000,21.600000
+Google Ads,Data Analytics Executive Course,Paid Search,Desktop,Hyderabad,0,0,183786.04,0,0,1264233.00,0.0,0.000000,0.000000,0.000000,6.880000
+Google Ads,Data Analytics Executive Course,Paid Search,Tablet,Hyderabad,0,0,171027.48,0,0,1188131.00,0.0,0.000000,0.000000,0.000000,6.950000
+Google Ads,Data Analytics Executive Course,Paid Search,Mobile,Hyderabad,0,0,183558.31,0,0,1235809.00,0.0,0.000000,0.000000,0.000000,6.730000

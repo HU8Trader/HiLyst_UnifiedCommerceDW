@@ -1,0 +1,635 @@
+LeadFactKey,CustomerKey,LocationKey,TimeSpentOnSite,EstimatedSalary,HasConverted,LeadQualityTier,SourceSystem,ETL_LoadedAt
+1,43622,1,21.30,67168.18,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+2,43754,1,32.98,80711.85,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+3,43540,1,36.50,48317.13,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+4,43834,1,36.30,29354.82,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+5,43779,1,35.58,83064.96,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+6,43787,1,46.53,86554.96,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+7,43683,1,28.71,62057.62,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+8,43893,1,20.95,41098.61,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+9,43874,1,18.93,64980.51,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+10,43552,1,49.56,66154.73,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+11,43509,1,28.37,25933.27,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+12,43436,1,33.62,52347.27,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+13,43517,1,34.19,15638.65,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+14,43814,1,29.46,50882.94,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+15,43792,1,18.18,76635.49,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+16,43440,1,25.60,53630.76,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+17,43716,1,25.25,44756.53,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+18,43719,1,30.19,43821.76,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+19,43632,1,42.77,70651.29,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+20,43674,1,20.99,36171.35,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+21,43426,1,42.64,69262.63,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+22,43888,1,27.40,48026.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+23,43741,1,42.49,68054.35,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+24,43575,1,32.20,31284.73,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+25,43767,1,40.70,34281.12,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+26,43709,1,37.53,53040.61,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+27,43635,1,38.61,67135.17,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+28,43471,1,44.89,71840.40,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+29,43797,1,19.25,45527.82,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+30,43513,14473,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+31,43513,14477,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+32,43513,14479,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+33,43513,14481,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+34,43513,14484,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+35,43513,14489,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+36,43513,14495,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+37,43513,14511,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+38,43513,14512,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+39,43513,14526,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+40,43513,14528,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+41,43513,14532,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+42,43513,14536,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+43,43513,14539,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+44,43513,14542,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+45,43513,14551,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+46,43513,14554,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+47,43513,14558,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+48,43513,14560,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+49,43513,14570,43.32,59946.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+50,43678,1,32.46,31531.12,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+51,43607,1,30.56,92865.06,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+52,43762,1,30.64,64316.05,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+53,43679,1,25.71,55564.88,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+54,43711,1,35.55,71109.27,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+55,43451,1,31.42,63027.66,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+56,43477,1,27.66,19862.41,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+57,43457,1,30.29,65132.00,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+58,43423,1,34.49,22604.41,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+59,43705,1,28.08,53879.86,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+60,43652,1,17.10,59228.86,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+61,43686,1,40.76,60965.43,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+62,43620,1,42.25,66564.04,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+63,43573,1,32.46,79049.08,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+64,43461,1,41.81,79523.57,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+65,43468,1,26.40,42014.28,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+66,43544,1,35.32,82283.61,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+67,43724,1,36.45,49102.83,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+68,43858,1,27.58,65851.63,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+69,43411,1,43.88,77371.65,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+70,43581,1,50.99,63695.05,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+71,43820,1,29.82,41808.08,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+72,43894,1,30.11,54942.85,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+73,43397,1,28.94,29899.47,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+74,43833,1,24.65,44289.03,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+75,43399,1,29.30,67190.91,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+76,43593,1,25.14,55160.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+77,43533,1,31.03,35341.27,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+78,43595,1,30.97,29724.82,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+79,43765,1,44.89,54682.88,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+80,43474,1,48.79,55633.04,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+81,43676,1,44.01,62854.42,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+82,43718,1,36.32,76548.15,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+83,43784,1,32.39,74331.35,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+84,43495,1,36.06,65202.91,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+85,43750,1,32.72,38368.19,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+86,43748,1,44.55,58598.27,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+87,43507,1,51.51,72735.56,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+88,43624,1,38.62,58365.21,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+89,43424,1,11.93,54093.64,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+90,43590,1,34.25,37355.11,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+91,43473,1,25.65,55330.06,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+92,43879,1,20.93,48451.79,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+93,43700,1,35.96,23683.31,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+94,43641,1,44.46,63084.16,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+95,43663,14487,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+96,43560,14487,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+97,43663,14491,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+98,43560,14491,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+99,43663,14492,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+100,43560,14492,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+101,43663,14493,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+102,43560,14493,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+103,43663,14494,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+104,43560,14494,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+105,43663,14496,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+106,43560,14496,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+107,43663,14502,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+108,43560,14502,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+109,43663,14505,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+110,43560,14505,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+111,43663,14514,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+112,43560,14514,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+113,43663,14516,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+114,43560,14516,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+115,43663,14518,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+116,43560,14518,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+117,43663,14520,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+118,43560,14520,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+119,43663,14523,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+120,43560,14523,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+121,43663,14524,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+122,43560,14524,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+123,43663,14531,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+124,43560,14531,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+125,43663,14545,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+126,43560,14545,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+127,43663,14549,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+128,43560,14549,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+129,43663,14555,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+130,43560,14555,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+131,43663,14556,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+132,43560,14556,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+133,43663,14561,26.44,42016.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+134,43560,14561,24.71,69670.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+135,43681,1,31.81,35699.69,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+136,43445,1,16.28,38154.42,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+137,43453,1,36.81,81282.41,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+138,43722,1,39.36,80909.18,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+139,43871,1,19.00,50882.24,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+140,43439,1,48.87,34774.44,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+141,43459,1,11.45,35043.63,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+142,43810,1,29.45,14007.80,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+143,43880,1,44.55,65083.77,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+144,43751,1,46.47,68987.71,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+145,43483,1,19.92,30201.25,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+146,43772,1,34.84,37145.63,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+147,43487,1,41.63,63123.68,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+148,43840,1,33.30,66605.39,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+149,43640,1,29.75,53557.35,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+150,43781,1,30.57,67962.91,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+151,43559,1,33.52,50888.64,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+152,43743,1,33.44,41773.86,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+153,43830,1,39.82,70503.31,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+154,43702,1,35.77,85662.41,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+155,43730,1,39.85,94950.42,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+156,43735,1,30.17,18776.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+157,43410,1,21.37,38861.60,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+158,43706,1,21.06,58088.90,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+159,43667,1,54.04,37143.36,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+160,43831,1,31.25,76064.38,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+161,43860,1,37.09,91568.97,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+162,43887,1,37.30,62052.98,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+163,43519,1,30.39,33487.85,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+164,43845,1,40.31,31624.06,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+165,43407,1,31.47,24383.50,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+166,43404,1,35.36,69251.83,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+167,43421,1,34.25,40972.91,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+168,43398,1,43.75,50778.00,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+169,43721,1,25.68,29851.41,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+170,43649,1,24.04,36474.71,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+171,43890,1,20.71,33993.05,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+172,43610,1,37.11,76221.54,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+173,43599,1,23.50,43345.10,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+174,43875,1,39.06,29178.36,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+175,43586,1,24.66,36536.83,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+176,43786,1,23.18,42332.55,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+177,43696,1,33.65,55883.58,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+178,43574,1,15.62,31530.62,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+179,43576,1,31.72,73046.94,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+180,43822,1,12.87,27148.28,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+181,43715,1,26.39,37080.28,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+182,43857,1,33.23,33779.11,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+183,43506,1,37.17,63750.42,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+184,43657,1,53.66,53210.36,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+185,43664,1,36.61,65044.06,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+186,43760,1,35.10,69637.14,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+187,43571,1,27.95,56403.17,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+188,43813,1,19.73,42876.17,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+189,43856,1,20.49,45728.95,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+190,43481,1,24.83,43126.92,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+191,43491,1,31.36,54655.58,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+192,43811,1,37.28,50158.75,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+193,43450,1,24.42,49660.20,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+194,43671,1,36.69,84819.67,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+195,43539,1,35.83,38704.73,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+196,43704,1,23.97,25710.86,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+197,43764,1,36.90,32583.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+198,43480,1,22.46,47770.07,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+199,43449,1,38.59,54524.27,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+200,43886,1,19.05,47550.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+201,43753,1,42.15,48446.83,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+202,43782,1,38.93,67626.03,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+203,43837,1,29.31,38241.22,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+204,43435,1,41.77,47562.91,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+205,43699,1,42.92,58281.11,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+206,43749,1,33.80,45502.98,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+207,43422,1,25.06,17759.93,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+208,43653,1,43.62,43938.78,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+209,43478,1,23.87,23439.87,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+210,43654,1,33.89,58187.78,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+211,43763,1,40.98,45591.45,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+212,43648,1,29.86,49464.23,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+213,43688,1,20.17,34498.49,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+214,43638,1,17.48,41463.95,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+215,43870,1,33.49,81823.34,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+216,43832,1,42.14,60260.71,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+217,43502,1,25.41,18541.73,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+218,43849,1,34.53,30221.94,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+219,43780,1,34.90,55864.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+220,43878,1,36.92,61668.56,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+221,43795,1,26.54,50967.99,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+222,43775,1,30.43,40446.85,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+223,43629,1,31.18,60772.42,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+224,43846,1,22.63,25031.15,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+225,43608,1,45.91,73373.88,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+226,43868,1,33.73,64389.14,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+227,43585,1,40.22,67491.60,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+228,43536,1,34.96,60074.24,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+229,43778,1,28.27,82395.64,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+230,43712,1,27.71,48659.57,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+231,43666,1,33.91,77611.43,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+232,43492,1,19.85,19295.77,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+233,43444,1,34.91,39990.79,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+234,43466,1,44.68,57218.00,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+235,43885,1,46.29,51531.08,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+236,43672,1,37.21,55837.22,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+237,43482,1,46.63,63853.43,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+238,43866,1,30.97,73565.32,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+239,43415,1,26.41,28349.21,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+240,43611,1,17.65,44482.23,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+241,43881,1,26.91,61418.45,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+242,43647,1,20.33,38057.41,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+243,43643,1,22.46,7050.78,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+244,43504,1,27.43,40814.48,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+245,43617,1,24.53,52068.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+246,43579,1,36.60,72243.39,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+247,43727,1,37.00,44968.82,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+248,43673,1,29.06,54969.64,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+249,43872,1,27.67,47816.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+250,43637,1,27.67,3993.15,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+251,43442,1,56.43,60976.07,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+252,43805,1,46.45,70486.66,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+253,43428,1,27.73,47093.54,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+254,43563,1,42.91,55896.75,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+255,43550,1,31.52,35277.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+256,43867,14482,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+257,43591,14482,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+258,43867,14488,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+259,43591,14488,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+260,43867,14497,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+261,43591,14497,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+262,43867,14500,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+263,43591,14500,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+264,43867,14503,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+265,43591,14503,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+266,43867,14506,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+267,43591,14506,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+268,43867,14508,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+269,43591,14508,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+270,43867,14517,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+271,43591,14517,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+272,43867,14519,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+273,43591,14519,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+274,43867,14521,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+275,43591,14521,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+276,43867,14537,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+277,43591,14537,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+278,43867,14540,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+279,43591,14540,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+280,43867,14546,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+281,43591,14546,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+282,43867,14550,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+283,43591,14550,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+284,43867,14552,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+285,43591,14552,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+286,43867,14557,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+287,43591,14557,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+288,43867,14562,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+289,43591,14562,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+290,43867,14564,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+291,43591,14564,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+292,43867,14565,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+293,43591,14565,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+294,43867,14568,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+295,43591,14568,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+296,43867,14576,27.02,49795.26,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+297,43591,14576,41.70,54520.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+298,43600,1,41.54,55792.70,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+299,43864,1,27.29,52587.05,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+300,43438,1,23.30,52564.76,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+301,43892,1,27.83,51644.49,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+302,43839,1,30.69,81129.61,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+303,43588,1,13.22,41686.82,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+304,43616,1,39.17,77900.18,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+305,43728,1,15.56,55052.91,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+306,43692,1,36.06,50105.88,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+307,43627,1,44.66,75426.28,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+308,43494,1,54.00,44373.40,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+309,43812,1,20.42,40114.16,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+310,43690,1,26.79,51691.33,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+311,43689,1,22.96,35048.06,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+312,43788,1,36.05,61233.46,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+313,43419,1,40.49,63514.82,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+314,43430,1,32.00,42419.66,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+315,43850,1,39.25,42504.88,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+316,43551,1,29.49,37611.84,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+317,43614,1,42.19,48020.57,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+318,43777,1,37.17,63100.67,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+319,43554,1,30.78,26311.63,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+320,43708,1,30.58,65742.85,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+321,43463,1,28.55,36621.60,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+322,43768,1,27.91,39615.39,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+323,43604,1,38.32,53360.39,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+324,43703,1,26.41,55388.71,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+325,43844,1,29.77,72535.30,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+326,43569,1,50.27,75305.25,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+327,43630,1,44.14,59156.45,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+328,43642,1,38.24,52840.91,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+329,43448,1,34.72,80745.01,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+330,43584,1,40.15,74444.75,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+331,43819,1,26.34,37225.22,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+332,43488,1,23.09,40648.69,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+333,43553,1,45.66,77879.47,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+334,43659,1,35.84,34039.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+335,43508,1,40.52,77375.01,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+336,43808,1,44.64,31282.86,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+337,43577,1,31.87,56862.72,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+338,43756,1,26.30,65398.52,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+339,43670,1,30.22,33466.30,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+340,43520,1,41.96,63479.26,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+341,43826,1,31.27,41941.59,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+342,43400,1,28.86,55595.29,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+343,43744,1,50.23,31707.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+344,43497,1,29.46,37089.15,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+345,43821,1,42.15,24325.74,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+346,43510,1,5.00,47329.57,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+347,43417,1,33.74,70033.41,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+348,43650,1,23.43,26215.84,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+349,43656,1,25.32,82452.21,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+350,43680,1,52.01,80642.65,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+351,43486,1,39.45,81958.85,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+352,43623,1,29.23,65677.09,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+353,43889,1,30.27,84100.27,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+354,43644,1,32.24,30772.33,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+355,43472,1,30.85,30562.37,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+356,43582,1,33.84,19031.97,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+357,43413,1,28.92,40110.81,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+358,43884,1,35.93,31644.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+359,43566,1,25.37,37192.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+360,43824,1,18.77,39413.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+361,43598,1,25.58,5205.17,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+362,43633,1,41.36,73157.85,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+363,43802,1,24.35,39941.88,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+364,43454,1,32.44,51677.70,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+365,43752,1,27.18,54994.55,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+366,43568,1,35.50,65822.95,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+367,43433,1,37.14,51733.66,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+368,43541,1,26.62,76505.56,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+369,43546,1,22.44,35917.85,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+370,43687,1,23.56,43072.57,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+371,43548,1,27.46,40106.61,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+372,43771,1,43.28,54123.65,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+373,43464,1,29.99,77059.75,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+374,43742,1,29.76,30445.16,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+375,43528,1,37.90,60271.28,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+376,43427,1,35.31,12318.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+377,43668,1,13.19,24231.09,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+378,43597,1,51.34,45686.29,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+379,43460,1,40.50,52623.65,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+380,43660,1,44.12,55553.57,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+381,43794,1,38.65,57793.43,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+382,43431,1,33.52,50702.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+383,43592,1,28.76,69130.79,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+384,43594,1,47.53,93024.49,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+385,43414,1,48.86,73141.85,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+386,43420,1,10.86,15809.81,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+387,43739,1,44.24,90459.34,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+388,43518,1,36.82,75099.42,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+389,43848,1,29.72,77240.46,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+390,43432,1,35.31,54846.03,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+391,43589,1,24.33,59873.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+392,43562,1,35.36,25150.49,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+393,43729,1,32.95,58244.19,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+394,43543,1,35.12,71480.48,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+395,43636,1,23.40,65057.10,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+396,43512,1,19.29,50991.43,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+397,43479,1,37.57,40383.56,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+398,43815,1,41.61,80805.69,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+399,43523,1,25.36,56313.85,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+400,43505,1,37.64,46736.46,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+401,43405,1,28.92,27512.09,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+402,43877,1,46.40,56088.84,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+403,43535,1,34.51,92847.69,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+404,43639,1,26.01,36948.35,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+405,43882,1,38.62,48343.44,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+406,43537,1,39.46,33843.66,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+407,43626,1,46.73,69916.67,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+408,43596,1,40.29,20259.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+409,43526,1,42.01,62045.42,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+410,43625,1,27.60,32242.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+411,43434,1,23.36,60421.50,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+412,43746,1,11.86,45622.08,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+413,43446,1,34.83,50151.33,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+414,43402,1,7.76,34221.12,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+415,43698,1,24.63,27792.46,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+416,43493,1,36.18,45151.86,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+417,43725,1,30.73,67022.27,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+418,43697,1,19.09,39279.89,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+419,43855,1,45.87,96204.80,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+420,43484,1,47.00,67250.43,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+421,43645,1,22.67,41686.20,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+422,43695,1,38.68,43236.50,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+423,43521,1,40.74,35323.20,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+424,43720,1,25.31,43764.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+425,43682,1,35.65,76490.74,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+426,43789,1,38.01,63004.54,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+427,43418,1,42.25,32215.10,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+428,43685,1,25.39,47645.93,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+429,43465,1,7.52,22839.25,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+430,43816,1,29.16,39394.28,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+431,43530,1,20.09,37750.45,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+432,43462,1,47.00,89227.58,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+433,43693,1,37.59,23774.12,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+434,43734,1,23.28,40765.04,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+435,43803,1,19.94,34263.79,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+436,43580,1,10.51,39381.93,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+437,43791,1,15.65,48755.89,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+438,43804,1,39.63,77245.23,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+439,43469,1,46.54,48663.49,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+440,43401,1,27.80,38651.13,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+441,43603,1,30.73,47012.73,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+442,43396,1,49.97,71843.97,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+443,43783,1,42.07,83277.55,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+444,43796,1,36.15,70163.23,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+445,43800,1,29.84,100000.00,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+446,43823,1,29.58,52826.16,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+447,43578,1,27.58,58093.97,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+448,43758,1,26.54,31708.57,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+449,43869,1,27.34,41556.96,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+450,43838,1,33.53,61630.43,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+451,43736,1,34.95,39815.21,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+452,43545,1,24.76,38484.42,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+453,43572,1,30.15,20207.60,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+454,43403,1,33.14,82693.81,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+455,43503,1,38.42,60894.22,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+456,43485,1,38.17,28728.32,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+457,43798,1,37.27,51874.98,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+458,43761,1,38.48,44371.60,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+459,43555,1,35.84,53724.76,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+460,43456,1,41.46,75923.25,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+461,43556,1,32.02,50527.99,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+462,43612,1,23.05,37980.93,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+463,43412,1,53.15,43293.51,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+464,43662,1,21.22,35116.30,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+465,43755,1,47.94,60416.70,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+466,43691,1,22.40,48432.03,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+467,43489,1,37.01,73057.24,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+468,43774,1,42.89,58162.28,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+469,43628,1,34.62,61696.33,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+470,43658,1,23.40,49708.91,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+471,43665,1,31.94,18554.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+472,43731,1,41.69,90106.14,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+473,43836,1,33.65,32293.75,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+474,43406,1,37.71,55642.80,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+475,43615,1,36.50,94315.46,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+476,43710,1,35.52,57641.39,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+477,43542,1,40.26,60281.71,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+478,43843,1,19.91,32894.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+479,43619,1,18.29,33736.55,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+480,43601,1,38.25,95100.12,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+481,43740,1,31.58,29424.29,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+482,43769,1,29.49,25982.68,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+483,43467,1,31.01,51162.99,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+484,43609,1,45.49,67660.88,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+485,43851,1,44.25,79679.14,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+486,43801,1,31.58,33465.46,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+487,43499,1,26.24,61347.17,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+488,43799,1,33.52,56801.93,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+489,43835,1,24.88,45924.57,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+490,43605,1,22.44,52851.50,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+491,43713,1,33.59,58833.68,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+492,43475,1,33.82,46063.71,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+493,43522,1,19.22,44969.13,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+494,43733,1,41.50,65690.97,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+495,43538,1,48.48,66439.65,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+496,43694,1,36.77,53464.43,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+497,43883,1,31.44,75520.26,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+498,43558,1,25.21,77888.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+499,43684,1,43.17,41033.05,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+500,43532,1,40.46,53966.28,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+501,43847,1,24.12,47698.83,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+502,43717,1,34.00,38273.28,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+503,43452,1,20.29,45012.50,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+504,43669,1,28.25,57275.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+505,43828,1,27.87,23552.77,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+506,43458,1,18.68,92596.75,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+507,43631,1,37.63,51037.35,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+508,43618,1,33.27,54127.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+509,43587,1,24.71,58164.60,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+510,43602,1,37.53,62850.32,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+511,43511,1,34.75,49052.90,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+512,43737,1,47.07,80709.84,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+513,43853,1,38.22,41201.79,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+514,43515,1,36.52,88045.22,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+515,43583,1,28.88,37592.78,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+516,43766,1,22.90,34498.66,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+517,43723,1,29.05,39105.72,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+518,43701,1,29.69,41098.88,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+519,43529,1,50.04,69461.33,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+520,43429,1,41.10,82404.98,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+521,43561,1,39.35,73499.55,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+522,43443,1,40.13,75594.06,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+523,43859,1,37.75,73687.48,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+524,43634,1,60.00,76499.12,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+525,43807,1,17.10,61661.77,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+526,43818,1,41.99,54726.99,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+527,43677,1,25.80,30541.14,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+528,43714,1,15.05,97646.22,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+529,43675,1,39.61,61820.97,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+530,43876,1,43.14,63831.94,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+531,43865,1,42.88,61908.40,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+532,43525,1,39.05,73516.58,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+533,43613,1,42.90,78401.67,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+534,43757,1,44.43,86895.48,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+535,43496,1,41.70,80543.11,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+536,43441,1,38.86,55358.82,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+537,43564,1,32.33,38914.63,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+538,43606,1,18.88,52519.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+539,43490,1,25.91,20.00,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+540,43852,1,41.10,49463.38,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+541,43437,1,29.19,52677.41,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+542,43793,1,43.19,90494.11,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+543,43759,1,50.88,53562.23,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+544,43790,1,13.98,45622.74,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+545,43655,1,16.30,32920.52,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+546,43455,1,29.47,69107.48,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+547,43854,1,34.54,78156.46,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+548,43842,1,30.52,12066.02,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+549,43567,1,25.09,61653.38,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+550,43806,1,20.71,7147.72,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+551,43726,1,33.05,74329.32,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+552,43646,1,24.43,20934.75,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+553,43785,1,38.81,61298.92,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+554,43776,1,40.63,59477.38,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+555,43500,1,28.15,62880.74,False,Tier 3 - High Income Non-Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+556,43409,1,24.09,18907.67,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+557,43408,1,25.55,21076.60,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+558,43570,1,32.27,52020.65,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+559,43817,1,53.05,73043.34,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+560,43863,1,40.52,68368.65,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+561,43825,1,20.58,26876.97,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+562,43416,1,44.50,52140.28,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+563,43514,1,26.04,74911.04,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+564,43747,1,39.90,66293.67,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+565,43527,1,37.72,64695.98,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+566,43862,1,30.39,59519.43,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+567,43732,14472,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+568,43827,14472,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+569,43732,14475,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+570,43827,14475,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+571,43732,14476,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+572,43827,14476,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+573,43732,14478,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+574,43827,14478,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+575,43732,14480,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+576,43827,14480,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+577,43732,14483,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+578,43827,14483,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+579,43732,14486,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+580,43827,14486,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+581,43732,14510,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+582,43827,14510,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+583,43732,14513,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+584,43827,14513,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+585,43732,14515,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+586,43827,14515,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+587,43732,14525,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+588,43827,14525,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+589,43732,14527,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+590,43827,14527,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+591,43732,14530,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+592,43827,14530,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+593,43732,14534,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+594,43827,14534,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+595,43732,14535,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+596,43827,14535,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+597,43732,14538,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+598,43827,14538,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+599,43732,14544,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+600,43827,14544,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+601,43732,14559,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+602,43827,14559,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+603,43732,14563,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+604,43827,14563,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+605,43732,14571,35.83,55333.73,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+606,43827,14571,28.38,90144.10,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+607,43531,1,53.07,65344.84,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+608,43534,1,48.35,55006.64,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+609,43891,1,37.84,57841.36,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+610,43447,1,29.40,50778.34,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+611,43770,1,38.80,73002.17,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+612,43809,1,36.87,87907.99,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+613,43651,1,34.06,55982.98,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+614,43829,1,20.78,25642.64,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+615,43470,1,32.66,75011.16,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+616,43516,1,45.88,51288.01,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+617,43873,1,30.98,13176.25,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+618,43738,1,37.67,62034.49,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+619,43547,1,32.95,43135.14,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+620,43498,1,44.19,65245.87,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+621,43841,1,44.45,78039.79,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+622,43707,1,29.85,56665.66,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+623,43557,1,30.92,19123.47,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+624,43549,1,29.18,37684.86,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+625,43501,1,23.65,29808.11,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+626,43773,1,36.21,59017.36,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+627,43524,1,24.62,34721.75,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+628,43745,1,34.10,74668.66,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+629,43861,1,33.20,89051.99,True,Tier 1 - High Value Converting,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+630,43621,1,33.35,52020.92,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+631,43661,1,25.25,30920.80,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+632,43425,1,41.70,40214.08,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+633,43565,1,32.61,51835.65,True,Tier 2 - Converting Lead,Meta Ads Lead Gen,2026-09-07T07:48:44.670733
+634,43476,1,35.32,23989.81,False,Tier 4 - Standard Audience,Meta Ads Lead Gen,2026-09-07T07:48:44.670733

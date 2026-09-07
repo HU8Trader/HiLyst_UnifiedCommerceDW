@@ -1,12 +1,13 @@
 FulfillmentKey,FulfilmentMethod,ShipServiceLevel,CourierStatus,FulfilledBy,CreatedDate
-1,Unknown,Standard,Unknown,Unknown,2026-09-06T03:33:58.588985
-2,Direct B2B Freight,Standard Freight,Shipped,Internal Logistics,2026-09-06T03:33:58.591987
-3,Amazon FBA,Expedited,Cancelled,Amazon FBA,2026-09-06T03:33:58.626403
-4,Amazon FBA,Expedited,Shipped,Amazon FBA,2026-09-06T03:33:58.626403
-5,Amazon FBA,Expedited,Unshipped,Amazon FBA,2026-09-06T03:33:58.626403
-6,Amazon FBA,Standard,Cancelled,Amazon FBA,2026-09-06T03:33:58.626403
-7,Amazon FBA,Standard,Shipped,Amazon FBA,2026-09-06T03:33:58.626403
-8,Amazon FBA,Standard,Unshipped,Amazon FBA,2026-09-06T03:33:58.626403
-9,Merchant Fulfilled,Standard,Shipped,Easy Ship,2026-09-06T03:33:58.626403
-10,Merchant Fulfilled,Standard,Unknown,Easy Ship,2026-09-06T03:33:58.626403
-11,Merchant Fulfilled,Standard,Unshipped,Easy Ship,2026-09-06T03:33:58.626403
+1,Amazon,Expedited,Cancelled,Merchant,2026-09-07T07:47:31.680113
+2,Amazon,Expedited,Shipped,Merchant,2026-09-07T07:47:31.680113
+3,Amazon,Expedited,Unshipped,Merchant,2026-09-07T07:47:31.680113
+4,Amazon,Standard,Cancelled,Merchant,2026-09-07T07:47:31.680113
+5,Amazon,Standard,Shipped,Merchant,2026-09-07T07:47:31.680113
+6,Amazon,Standard,Unshipped,Merchant,2026-09-07T07:47:31.680113
+7,Merchant,Standard,Shipped,Easy Ship,2026-09-07T07:47:31.680113
+8,Merchant,Standard,Unknown,Easy Ship,2026-09-07T07:47:31.680113
+9,Merchant,Standard,Unshipped,Easy Ship,2026-09-07T07:47:31.680113
+10,Direct Hub,Express,Delivered,Flipkart Hub,2026-09-07T07:47:32.167355
+11,Wholesale Freight,Standard Cargo,Delivered,Freight Forwarder,2026-09-07T07:47:32.172371
+12,Amazon FBA Global,Expedited,Delivered,Amazon Logistics,2026-09-07T07:47:32.215180
