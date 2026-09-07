@@ -1,0 +1,6 @@
+TITLE: Warehouse Supply Chain & Inventory Health
+
+SHORT DESCRIPTION (~200 characters):
+Supply chain cockpit tracking 242,370 units on hand, stockout margin bleed, days of inventory run-rate, and 3PL fulfillment benchmarks (Shiprocket vs INCREFF).
+
+CHARACTER COUNT: 159 characters.

@@ -1,8 +1,3 @@
-# HiLyst — LinkedIn Publication Kit
-
-## Ready-to-Publish Post Text
-
-```text
 Excited to share Version 0.2 of the HiLyst Unified Business Intelligence & Decision Intelligence Platform!
 
 "Visualize. Analyze. Then Decide."
@@ -32,4 +27,3 @@ GitHub Repository & Full Architecture Docs:
 https://github.com/HU8Trader/HiLyst_UnifiedCommerceDW.git
 
 #DataEngineering #BusinessIntelligence #SQLServer #DataWarehouse #Kimball #ETL #AnalyticsEngineering #ECommerce #DecisionIntelligence #DataQuality #DataGovernance #PowerBI #DataAnalytics
-```

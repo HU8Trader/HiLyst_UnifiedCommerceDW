@@ -1,0 +1,6 @@
+TITLE: Sales & Multi-Channel Intelligence
+
+SHORT DESCRIPTION (~200 characters):
+Multi-channel revenue funnel analyzing order volume, delivery SLA, cancellation diagnostics, and marketplace commission margins across Amazon, Flipkart, and Wholesale.
+
+CHARACTER COUNT: 167 characters.

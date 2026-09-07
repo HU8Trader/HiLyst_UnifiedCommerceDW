@@ -1,0 +1,16 @@
+HiLyst Unified Business Intelligence & Decision Intelligence Platform is an enterprise-grade data engineering and analytics solution designed to consolidate fragmented multi-channel e-commerce, international B2B wholesale exports, digital advertising campaigns, warehouse logistics, and cross-channel pricing arbitrage into an automated, single source of truth.
+
+Operating on Microsoft SQL Server 2025 using a high-performance Medallion Data Architecture (Bronze -> Silver -> Gold -> Analytics), the platform integrates 13 multi-source datasets comprising over 559,000 raw records into a Kimball Star Schema with 8 conformed dimensions and 6 grain-specific fact tables (515,187 sales order line items).
+
+CORE BUSINESS PROBLEMS RESOLVED:
+1. Multi-Channel Fragmentation: Unifies transactional data across Amazon India, Amazon Global Direct, Flipkart Quick-Commerce, and international wholesale buyers into a standard sales grain with unified customer and product hierarchies.
+2. Cross-Portal Pricing Arbitrage: Monitors real-time MRP spreads across Amazon, Flipkart, Myntra, Ajio, Limeroad, and Paytm to detect unauthorized price dumping and capture margin spreads up to Rs 140/unit.
+3. Marketing ROAS Attribution: Reconciles paid search and social ad spend against realized revenue, identifying Meta Ads (21.60x ROAS) and Google Ads (6.85x ROAS) efficiency across devices and keywords.
+4. Working Capital & Stockout Optimization: Identifies fast-moving SKUs with <5 days of supply to prevent lost revenue while flagging dead stock (>120 days) to unlock Rs 1.20L in liquidity.
+5. Automated Data Governance: Enforces an 18-test automated SQL data quality suite with 100% pass rate.
+
+KEY METRICS:
+- Total GMV: Rs 21.28 Cr | Net Revenue: Rs 20.29 Cr | Gross Margin: 40.77%
+- Orders: 402,861 | Units: 782,173 | Active Customers: 170,180
+- Catalog Master: 40,802 SKUs | Platform Compatibility: 88.5%
+- Zero-dependency web dashboard with 11 interactive decision views.

@@ -1,0 +1,6 @@
+TITLE: Autonomous AI Decision Engine
+
+SHORT DESCRIPTION (~200 characters):
+Prescriptive decision intelligence cards delivering root-cause analysis, quantified financial impact, confidence scores, and natural language SQL query simulation.
+
+CHARACTER COUNT: 163 characters.
