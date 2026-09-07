@@ -1,6 +1,0 @@
-TITLE: Product Catalog & Pareto 80/20
-
-SHORT DESCRIPTION (~200 characters):
-Catalog skew analytics tracking Pareto 80/20 revenue concentration, category velocity, and unit realizations across 40,802 unified multi-category SKUs.
-
-CHARACTER COUNT: 151 characters.

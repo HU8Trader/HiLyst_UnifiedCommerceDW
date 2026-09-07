@@ -22,3 +22,8 @@ Thumbs.db
 # Scratch and temporary tools
 scratch/
 *.log
+
+# LinkedIn collateral and drafts (local only)
+Linkedin Post/
+Linkedin Project/
+

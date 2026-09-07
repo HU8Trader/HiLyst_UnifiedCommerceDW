@@ -1,6 +1,0 @@
-TITLE: Cross-Channel Pricing Arbitrage
-
-SHORT DESCRIPTION (~200 characters):
-Multi-portal pricing spread monitor tracking MRP deviations across Amazon, Flipkart, Myntra, Ajio, Limeroad, and Paytm to capture margin arbitrage.
-
-CHARACTER COUNT: 147 characters.

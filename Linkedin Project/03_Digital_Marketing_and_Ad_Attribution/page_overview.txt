@@ -1,6 +1,0 @@
-TITLE: Digital Marketing & Ad Attribution
-
-SHORT DESCRIPTION (~200 characters):
-Marketing attribution engine benchmarking Google Ads Search (6.85x ROAS) vs Meta Social Direct Response (21.60x ROAS) across spend, clicks, CPC, and scored leads.
-
-CHARACTER COUNT: 162 characters.

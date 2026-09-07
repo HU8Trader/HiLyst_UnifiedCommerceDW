@@ -1,6 +1,0 @@
-TITLE: System Architecture & Metadata
-
-SHORT DESCRIPTION (~200 characters):
-Technical metadata and lineage documentation detailing SQL Server 2025 Medallion pipeline (Bronze-Silver-Gold-Analytics) and Kimball star schema specs.
-
-CHARACTER COUNT: 151 characters.

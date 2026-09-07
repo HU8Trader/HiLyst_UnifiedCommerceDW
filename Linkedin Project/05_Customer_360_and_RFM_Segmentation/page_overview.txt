@@ -1,6 +1,0 @@
-TITLE: Customer 360 & RFM Segmentation
-
-SHORT DESCRIPTION (~200 characters):
-Unified customer master profiling 170,679 accounts across B2B wholesale buyers, global retail shoppers, and RFM behavioral loyalty cohorts.
-
-CHARACTER COUNT: 139 characters.

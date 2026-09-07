@@ -1,6 +1,0 @@
-TITLE: Data Quality & Governance Suite (18/18)
-
-SHORT DESCRIPTION (~200 characters):
-Automated data governance scorecard logging 18/18 passed integrity, referential, range, and uniqueness audits on SQL Server with zero critical defects.
-
-CHARACTER COUNT: 151 characters.

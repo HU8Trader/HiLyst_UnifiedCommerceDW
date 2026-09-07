@@ -1,6 +1,0 @@
-TITLE: Reports & Gold Layer Data Exports
-
-SHORT DESCRIPTION (~200 characters):
-Self-service download center providing direct CSV access to all 14 Kimball Star Schema tables (515k+ rows) and 10 governed semantic analytics views.
-
-CHARACTER COUNT: 148 characters.
